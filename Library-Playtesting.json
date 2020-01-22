@@ -1,0 +1,14 @@
+{
+  "catalogue": {
+    "name": "Library-Playtesting",
+    "id": "a19b-8b81-40a5-05ca",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "62e4-ab79-1c4c-9ffe",
+    "gameSystemRevision": 1,
+    "library": true,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Library-Ronin", "id": "24e8-6b4e-a035-e19f", "importRootEntries": true, "targetId": "b489-b304-948d-52d0", "type": "catalogue"}]
+  }
+}
