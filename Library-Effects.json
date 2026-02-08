@@ -1,0 +1,269 @@
+{
+  "catalogue": {
+    "name": "Library-Effects",
+    "id": "d049-c60b-bd5c-be89",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "62e4-ab79-1c4c-9ffe",
+    "gameSystemRevision": 15,
+    "library": true,
+    "revision": 5,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [
+      {"name": "Library-Traits", "id": "62da-388c-c2cb-5965", "importRootEntries": true, "targetId": "8335-cda4-b21f-cef1", "type": "catalogue"},
+      {"name": "Library-SpecialAbilities", "id": "ad5a-e97e-8001-3fc7", "importRootEntries": true, "targetId": "2ca6-d249-0ab5-53c7", "type": "catalogue"}
+    ],
+    "sharedInfoGroups": [
+      {
+        "name": "Kurouma Koryu",
+        "id": "3ba5-1837-b036-ca3d",
+        "hidden": false,
+        "infoLinks": [{"name": "Brutal", "id": "ff2d-e56e-e0f8-640f", "hidden": false, "targetId": "5d95-975e-a72c-25f3", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Kurouma Koryu",
+            "id": "bce1-af39-afb3-5f85",
+            "hidden": false,
+            "typeId": "2f00-4eb0-a8cb-7022",
+            "typeName": "Unique Effects",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If this model places all its Melee dice into Attack it gains Brutal (+1) until the end of the current Melee Exchange.",
+                "typeId": "6de4-d067-c2aa-0dc2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Teachings of Yashushi",
+        "id": "c482-e45f-ca05-2880",
+        "hidden": false,
+        "infoLinks": [{"name": "Tactician", "id": "5021-b0f4-afef-ebeb", "hidden": false, "targetId": "14dd-c67a-5240-e647", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Teachings of Yasushi",
+            "id": "07b7-101a-9434-c234",
+            "hidden": false,
+            "typeId": "d2bb-86b4-edf3-c4e5",
+            "typeName": "Special Card",
+            "characteristics": [{"name": "Description", "$text": "Attached model gains Tactician (+1).", "typeId": "b4b7-5338-e8e2-41fd"}]
+          }
+        ]
+      },
+      {
+        "name": "Kusari",
+        "id": "863f-afe3-7525-d9ef",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Lightweight", "id": "612b-3b58-a94f-1427", "hidden": false, "targetId": "c75c-7124-2b1f-a4d9", "type": "rule"},
+          {"name": "Sweep Attack", "id": "c014-3339-ae00-a281", "hidden": false, "targetId": "bcbd-fab2-c8e2-6ff7", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Kusari",
+            "id": "48dc-686a-9e0a-c96b",
+            "hidden": false,
+            "typeId": "7e20-258e-bf92-18f9",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {"name": "Ranged Weapon Strength", "$text": "Special", "typeId": "15aa-b6bd-6923-271f"},
+              {"name": "Range Bands", "$text": "-/3/-", "typeId": "be6a-50c6-d691-e2e9"},
+              {"name": "Traits", "$text": "Lightweight", "typeId": "3410-4428-ef91-eb61"},
+              {"name": "Specials", "$text": "Sweep Attack (0)", "typeId": "cdaf-b6ac-89d4-39ef"},
+              {"name": "Unique Effects", "typeId": "3bf8-6525-f003-4990"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shield",
+        "id": "9f06-6fb1-c193-b964",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Parry", "id": "7e57-b308-0678-468e", "hidden": false, "targetId": "c7c2-b36e-7952-c79b", "type": "rule"},
+          {"name": "Armour", "id": "362f-5fd9-36d9-d7fb", "hidden": false, "targetId": "8615-1c63-2242-5746", "type": "rule"},
+          {"name": "Ranged Defence ", "id": "91b9-9759-8ee2-0127", "hidden": false, "targetId": "9b8d-9ca9-e25d-3988", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Shield",
+            "id": "dd26-ba40-8d42-24d8",
+            "hidden": false,
+            "typeId": "2f00-4eb0-a8cb-7022",
+            "typeName": "Unique Effects",
+            "characteristics": [{"name": "Description", "$text": "This model has Parry (+1), Ranged Defence (+1), and Armour (+1) unless Surprised.", "typeId": "6de4-d067-c2aa-0dc2"}]
+          }
+        ]
+      },
+      {
+        "name": "Fly High",
+        "id": "8342-321c-1d2f-b04b",
+        "hidden": false,
+        "profiles": [
+          {
+            "name": "Fly High",
+            "id": "c4ee-9286-93c4-f9b9",
+            "hidden": false,
+            "typeId": "2f00-4eb0-a8cb-7022",
+            "typeName": "Unique Effects",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "During the Starting Phase, this model's Controller may place this model Elsewhere. This model gains Flank and returns to play using those rules.",
+                "typeId": "6de4-d067-c2aa-0dc2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zanbato",
+        "id": "1774-0187-b918-96c4",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Powerful Attack", "id": "efd6-ee63-c2fd-af7e", "hidden": false, "targetId": "d56a-058d-95d9-5b60", "type": "rule"},
+          {"name": "Critical Attack", "id": "7536-c5cd-8061-4081", "hidden": false, "targetId": "7ec7-56ae-79e3-423e", "type": "rule"},
+          {"name": "Slow", "id": "a0ad-31ab-10ca-9130", "hidden": false, "targetId": "f1c3-4a84-c616-23cd", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Zanbato",
+            "id": "d937-c23e-a64c-6a4a",
+            "hidden": false,
+            "typeId": "2f00-4eb0-a8cb-7022",
+            "typeName": "Unique Effects",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "- At the start of a Melee Exchange this model may choose to gain Slow. If it does, it gains Powerful Attack (1) until the current activation is complete.\n- All attacks with this weapon against Cavalry models are Critical Attacks in addition to any chosen Special Attack.",
+                "typeId": "6de4-d067-c2aa-0dc2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Inshin Denshin",
+        "id": "33ed-2583-9a22-6035",
+        "hidden": false,
+        "profiles": [
+          {
+            "name": "Inshin Denshin",
+            "id": "6b2c-78eb-d799-02e5",
+            "hidden": false,
+            "typeId": "2f00-4eb0-a8cb-7022",
+            "typeName": "Unique Effects",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "All Friendly Kitsune are considered to have LoS to any point that any Friendly Kitsune has LoS to.",
+                "typeId": "6de4-d067-c2aa-0dc2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Dark Secrets",
+        "id": "fb30-f93d-c83b-6372",
+        "hidden": false,
+        "typeId": "d2bb-86b4-edf3-c4e5",
+        "typeName": "Special Card",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "During the Starting Phase, choose a non-Soulless Enemy model within 3\" of a Friendly model.\nThat model makes a Ki Challenge Test (6). If it fails it gains 1 Control Marker.",
+            "typeId": "b4b7-5338-e8e2-41fd"
+          }
+        ]
+      },
+      {
+        "name": "Thrown Harpoon",
+        "id": "6e85-c4e5-5c3e-8c7f",
+        "hidden": false,
+        "typeId": "2f00-4eb0-a8cb-7022",
+        "typeName": "Unique Effects",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "If this Attack causes Damage then the Target is moved 1\" directly toward this model.\nThis model can only make 1 Thrown Harpoon Attack per Turn.",
+            "typeId": "6de4-d067-c2aa-0dc2"
+          }
+        ]
+      },
+      {
+        "name": "Net",
+        "id": "f7ce-6477-a511-23bf",
+        "hidden": false,
+        "typeId": "2f00-4eb0-a8cb-7022",
+        "typeName": "Unique Effects",
+        "characteristics": [{"name": "Description", "$text": "This model may not choose to use the Net Melee Weapon if it has no Ammo Tokens.", "typeId": "6de4-d067-c2aa-0dc2"}]
+      },
+      {
+        "name": "Outcast",
+        "id": "52b5-d398-01f2-8ed1",
+        "hidden": false,
+        "typeId": "2f00-4eb0-a8cb-7022",
+        "typeName": "Unique Effects",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "This model cannot be Targeted by Friendly Descension models, and Tengu Descension models may not Channel to or Leech from this model.",
+            "typeId": "6de4-d067-c2aa-0dc2"
+          }
+        ]
+      },
+      {
+        "name": "Swarm",
+        "id": "4fab-5586-e907-eed3",
+        "hidden": false,
+        "typeId": "2f00-4eb0-a8cb-7022",
+        "typeName": "Unique Effects",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "This model's Melee and Ki Statistics are variable. X is equal to the number of unmarked Wound boxes this model has on its Wound Track.",
+            "typeId": "6de4-d067-c2aa-0dc2"
+          }
+        ]
+      },
+      {
+        "name": "Gorintō",
+        "id": "e10a-59bf-1dc1-66df",
+        "hidden": false,
+        "typeId": "6fa2-988d-fc04-c751",
+        "typeName": "Special Card (Terrain)",
+        "characteristics": [
+          {"name": "Base", "$text": "30mm", "typeId": "c40b-3106-986d-4db5"},
+          {"name": "Passage", "$text": "Impassable", "typeId": "3df8-6a47-0c4d-73e7"},
+          {"name": "Visibility", "$text": "Blocking", "typeId": "9858-c2c1-b6fc-b75c"},
+          {"name": "Size", "$text": "Small", "typeId": "000a-cf92-4d1e-c934"},
+          {"name": "Traits", "$text": "Destructible", "typeId": "eaef-482b-c5d3-866e"},
+          {
+            "name": "Description",
+            "$text": "During the Ki Generation step choose 1 Friendly, non-Soulless model within 6\" to gain 1 additional Ki Token.\nThis terrain must be deployed within 6\" of the centreline.",
+            "typeId": "9cfa-9bd0-0b1b-9c06"
+          }
+        ]
+      },
+      {
+        "name": "Spiritual Harmony",
+        "id": "1c35-d7a3-8ac0-1b23",
+        "hidden": false,
+        "typeId": "d2bb-86b4-edf3-c4e5",
+        "typeName": "Special Card",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "Play during Ki Generation.\nYou may transfer Ki Tokens between Friendly Faction, non-Soulless models until the end of the Ki Generation step.",
+            "typeId": "b4b7-5338-e8e2-41fd"
+          }
+        ]
+      }
+    ]
+  }
+}
