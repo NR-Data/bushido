@@ -1,0 +1,4265 @@
+{
+  "catalogue": {
+    "name": "Kinshi Temple",
+    "id": "67f3-e3c0-9b54-71fa",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "62e4-ab79-1c4c-9ffe",
+    "gameSystemRevision": 19,
+    "library": false,
+    "revision": 29,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Library-Ronin", "id": "1b21-d851-508d-3a3f", "importRootEntries": true, "targetId": "b489-b304-948d-52d0", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Tenbatsu",
+        "id": "087b-879a-43a1-bacf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7785-a709-ad57-73e4",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ecb4-9578-acca-a48b",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kami of the Empty Mind",
+        "id": "bb43-f30c-4f7f-de66",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "456d-02e7-13bd-ca0e",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ecb4-9578-acca-a48b",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kami of Blighted Earth",
+        "id": "1ff7-6dec-67b4-9e1e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d5b6-fdca-2021-922e",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ecb4-9578-acca-a48b",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kami of Choking Fog",
+        "id": "7d3a-fdeb-dad8-4d12",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f3c3-0154-adbf-aa05",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ecb4-9578-acca-a48b",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {"name": "Taiyo", "id": "41ae-fb97-99e2-500b", "collective": false, "hidden": true, "import": true, "targetId": "90d7-5fe5-0a05-1bea", "type": "selectionEntry"},
+      {
+        "name": "Ryokeen",
+        "id": "323c-731a-e823-5955",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "f97b-84fa-27d7-b73b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Kiyozumi Sadaka",
+        "id": "ffb5-6bdc-eaf0-c1b1",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "7728-72dd-3889-91b2",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Kiyozumi Kicho",
+        "id": "d61d-f7f0-ee68-56e7",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "7b8f-61a1-2d88-60f2",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Kiyozumi Hinadori",
+        "id": "bf2b-bc02-242b-5d6e",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "07f2-8804-f10d-7bbb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Kiyozumi Haiboku",
+        "id": "1443-0721-fe07-07c5",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "91b9-5dcc-298c-0bfb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Kenmeina",
+        "id": "9e21-6de9-8376-8bf1",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "b896-0ea7-fb05-1ecc",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Hozumi Maha",
+        "id": "4384-a8b6-ee40-35d3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "09da-574e-599a-3226",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ecb4-9578-acca-a48b",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hozumi Koga",
+        "id": "7cc3-7562-9a89-cdff",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "2b64-ba79-8ea1-4098",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Hozumi Daihanji",
+        "id": "b478-5048-c0fe-d82f",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "2195-17c7-b68c-0111",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "The Hozumi Family",
+        "id": "c817-8a67-2afd-f90c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4750-f234-49e4-79c1",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "The Kiyozumi Family",
+        "id": "dc23-b5b6-c0ef-6483",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0e4a-a40c-14eb-2f4f",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "The Dark Pilgrim",
+        "id": "129b-bedf-09bc-7146",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1ada-6f0c-8123-5aab",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ecb4-9578-acca-a48b",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kodai",
+        "id": "0b42-5fb9-8754-2f32",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1c52-10dc-2bf8-938b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction Profile Cards", "id": "c4a5-21c9-fa45-7b76", "hidden": false, "primary": true, "targetId": "0ca8-2040-37f2-a1e0"}]
+      },
+      {
+        "name": "Kodai",
+        "id": "5b0a-3a21-1551-33a3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1c52-10dc-2bf8-938b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Reference Cards", "id": "7c37-09b5-27b6-7c29", "hidden": false, "primary": true, "targetId": "5073-f00b-a8f6-5e3b"}],
+        "modifiers": [{"field": "a111-8656-5c05-7415", "type": "set", "value": 0}, {"field": "name", "type": "append", "value": " (reference)"}]
+      },
+      {
+        "name": "Kami of the Empty Mind",
+        "id": "6b38-37dc-d412-f8cc",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "456d-02e7-13bd-ca0e",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Reference Cards", "id": "a2e4-5e7a-b897-52d3", "hidden": false, "primary": true, "targetId": "5073-f00b-a8f6-5e3b"},
+          {"name": "Ronin Profile Cards", "id": "d012-d305-dfe0-0341", "hidden": false, "primary": false, "targetId": "9fba-f50b-c8f7-8396"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "3e1b-8c7c-8e22-b3a0",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "1d49-ac4f-8aa7-5bf2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"field": "name", "type": "append", "value": " (reference)"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "ecb4-9578-acca-a48b",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "bb43-f30c-4f7f-de66",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {"name": "Batu", "id": "bac4-806c-f493-4278", "collective": false, "hidden": true, "import": true, "targetId": "5e97-28ce-9c1b-6b8b", "type": "selectionEntry"},
+      {
+        "name": "Khendish",
+        "id": "6a87-cd88-1a89-0ad3",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "dc54-b54e-1428-7c3e",
+        "type": "selectionEntry"
+      },
+      {"name": "Shosu", "id": "0985-06be-2001-0047", "collective": false, "hidden": true, "import": true, "targetId": "39f7-4bb9-edb9-bde8", "type": "selectionEntry"},
+      {
+        "name": "Tru'pah",
+        "id": "ec52-cb89-7dcf-507c",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "82bb-a55d-5366-baf2",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Two Lone Swordsmen",
+        "id": "d5c7-b0b7-66aa-5cc1",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "29e4-7f5e-593d-2445",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Kami of the Strong West Wind",
+        "id": "e5bc-a62e-23aa-68d6",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "9404-f1fd-c785-168c",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Reference Cards", "id": "d946-d0c0-18a4-87d5", "hidden": false, "primary": true, "targetId": "5073-f00b-a8f6-5e3b"}],
+        "modifierGroups": [
+          {
+            "conditions": [
+              {
+                "childId": "5902-ac4e-658c-7cf5",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "name", "type": "append", "value": "(reference)"}, {"field": "hidden", "type": "set", "value": false}]
+          }
+        ]
+      },
+      {
+        "name": "Kami of Choking Fog",
+        "id": "6611-5e6f-392b-8924",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "f3c3-0154-adbf-aa05",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Reference Cards", "id": "9ccd-a95f-c8c9-c4d1", "hidden": false, "primary": true, "targetId": "5073-f00b-a8f6-5e3b"}],
+        "modifierGroups": [
+          {
+            "conditions": [
+              {
+                "childId": "5902-ac4e-658c-7cf5",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [{"field": "name", "type": "append", "value": "(reference)"}, {"field": "hidden", "type": "set", "value": false}]
+          }
+        ]
+      },
+      {
+        "name": "Brotherhood",
+        "id": "e30d-fc38-a25c-8b44",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9402-edcc-93a2-aef1",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Eldest Brother",
+        "id": "3828-9073-5b08-61cf",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "294d-a0fa-f437-2fca",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Ronin Profile Cards", "id": "39f4-f303-f911-5692", "hidden": false, "primary": true, "targetId": "9fba-f50b-c8f7-8396"}]
+      },
+      {"name": "Somabo", "id": "a3f7-f032-b745-32fd", "hidden": true, "import": true, "targetId": "77b7-4d40-c62b-0a4b", "type": "selectionEntry"},
+      {"name": "Tozoku", "id": "3266-fc17-4946-676c", "hidden": true, "import": true, "targetId": "1659-29d3-dacb-8261", "type": "selectionEntry"},
+      {"name": "Ito Saiaku", "id": "d751-8b85-5bdd-0376", "hidden": true, "import": true, "targetId": "b95b-a74e-5a5a-beaa", "type": "selectionEntry"},
+      {"name": "Matashichi", "id": "69cf-e63b-1a2f-5543", "hidden": false, "import": true, "targetId": "2b6a-3f3d-a351-4010", "type": "selectionEntry"},
+      {"name": "Tahei", "id": "3e84-1a8d-2f88-8a1d", "hidden": false, "import": true, "targetId": "bd9c-9e6c-b20e-b121", "type": "selectionEntry"},
+      {"name": "Gocho", "id": "80dd-b08c-50b9-05e5", "hidden": true, "import": true, "targetId": "34cb-ec1a-36a2-e41c", "type": "selectionEntry"},
+      {
+        "name": "Numachi",
+        "id": "2fae-a5dd-ca59-259f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "898d-4af2-2802-ee85",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ecb4-9578-acca-a48b",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lady Fox",
+        "id": "7aca-85ee-a674-6962",
+        "hidden": false,
+        "import": true,
+        "targetId": "79bb-f855-6502-8ffa",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ecb4-9578-acca-a48b",
+                "childName": "Everything and Nothing",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Master Shi",
+        "id": "096c-e1e9-7274-9439",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Faction: Kinshi Temple", "id": "737b-8c78-0c16-ddaf", "hidden": false, "primary": false, "targetId": "943d-6b70-d85b-fb7b"},
+          {"name": "Faction Profile Cards", "id": "185c-129a-77fb-ea40", "hidden": false, "primary": true, "targetId": "0ca8-2040-37f2-a1e0"},
+          {"name": "Master", "id": "de27-2a1a-8f3b-1d97", "hidden": false, "primary": false, "targetId": "7379-3296-315e-62b2"},
+          {"name": "Monk", "id": "48b8-7b11-1bfb-4fdc", "hidden": false, "primary": false, "targetId": "57a9-2b8a-3729-1ad8"},
+          {"name": "Satsui", "id": "86bc-4dfc-8d98-2b6c", "hidden": false, "primary": false, "targetId": "a94e-8398-e4cc-2fb0"},
+          {"name": "Element: Void", "id": "e30a-7ec9-2392-d467", "hidden": false, "primary": false, "targetId": "18b7-00de-cec4-40ca"},
+          {"name": "Unique", "id": "83e9-11a1-1458-10da", "hidden": false, "primary": false, "targetId": "afd4-8041-e359-223c"}
+        ],
+        "constraints": [
+          {
+            "id": "f17f-19a4-6ec3-77dc",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 25}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "a7b2-e896-6d47-324a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "36b2-5747-21c9-8865",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Traits",
+            "id": "4d9b-8089-8db5-9cb9",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Fearless", "id": "fe1b-4cda-0c03-e6e5", "hidden": false, "targetId": "5d6f-1746-9080-aca5", "type": "rule"},
+              {"name": "Immune", "id": "d4c1-daeb-ecd5-105a", "hidden": false, "targetId": "ea08-b25e-0ea8-af73", "type": "rule"},
+              {"name": "Kata", "id": "5d90-3cdb-1302-aeac", "hidden": false, "targetId": "7283-1e6d-cb9c-f1c8", "type": "rule"},
+              {"name": "Ranged Defence ", "id": "b3a5-9e47-3a0f-02f9", "hidden": false, "targetId": "9b8d-9ca9-e25d-3988", "type": "rule"},
+              {"name": "Sixth Sense", "id": "fbbf-7220-eb20-d704", "hidden": false, "targetId": "ec49-3908-f1d1-8de2", "type": "rule"},
+              {"name": "Spirit", "id": "acdd-36f1-afc5-51c0", "hidden": false, "targetId": "a9ba-9904-7d29-7bcb", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Master Shi",
+                "id": "b9c8-5206-a77e-1ba5",
+                "hidden": false,
+                "typeId": "b175-cf39-0ab9-4d58",
+                "typeName": "Character Traits",
+                "characteristics": [{"name": "Traits", "$text": "Fearless, Immune [Prone], Kata, Ranged Defence (1), Sixth Sense, Spirit (1)", "typeId": "6fb8-4540-ed80-9332"}]
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapon",
+            "id": "6ff9-f347-e74f-abe1",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Ki Block", "id": "f645-8dde-8193-7009", "hidden": false, "targetId": "d134-7fba-38f0-8896", "type": "rule"},
+              {"name": "Combo Attack ", "id": "f26a-f965-c99d-48cd", "hidden": false, "targetId": "78ab-6a94-be24-8f74", "type": "rule"},
+              {"name": "Sidestep Attack ", "id": "6cba-e7d1-8b05-9842", "hidden": false, "targetId": "070d-a69d-0b46-27dc", "type": "rule"},
+              {"name": "Gokusatsu Attack", "id": "68e9-8d3b-b4a7-af5d", "hidden": false, "targetId": "9b0a-af20-c3f2-8291", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Satsui Bujutsu",
+                "id": "9dd6-9324-8aa2-dd96",
+                "hidden": false,
+                "typeId": "2b50-015d-0ea9-d9aa",
+                "typeName": "Melee Weapon",
+                "characteristics": [
+                  {"name": "Melee Weapon Strength", "$text": "+1", "typeId": "98e7-55ef-7ced-d4ba"},
+                  {"name": "Traits", "$text": "Ki Block", "typeId": "39e3-f945-7956-ad4e"},
+                  {"name": "Specials", "$text": "Combo Attack (0), Sidestep Attack (0), Gokusatsu Attack (0)", "typeId": "85a9-0a2b-f966-0c8d"},
+                  {"name": "Unique Effects", "typeId": "2561-7ce8-3a17-1289"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Ranged Weapon",
+            "id": "b4e4-d9e5-d2f9-da95",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Ki Block", "id": "298a-d23b-caec-8399", "hidden": false, "targetId": "d134-7fba-38f0-8896", "type": "rule"},
+              {"name": "Combo Attack ", "id": "8a9a-9f51-dcf6-4e03", "hidden": false, "targetId": "78ab-6a94-be24-8f74", "type": "rule"},
+              {"name": "Sidestep Attack ", "id": "d162-30fa-ff2c-0907", "hidden": false, "targetId": "070d-a69d-0b46-27dc", "type": "rule"},
+              {"name": "Gokusatsu Attack", "id": "3f73-61be-32df-0bed", "hidden": false, "targetId": "9b0a-af20-c3f2-8291", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Ki Vacuum",
+                "id": "55ce-8696-7996-0009",
+                "hidden": false,
+                "typeId": "7e20-258e-bf92-18f9",
+                "typeName": "Ranged Weapon",
+                "characteristics": [
+                  {"name": "Ranged Weapon Strength", "$text": "+1", "typeId": "15aa-b6bd-6923-271f"},
+                  {"name": "Range Bands", "$text": "3/5/7", "typeId": "be6a-50c6-d691-e2e9"},
+                  {"name": "Traits", "$text": "Ki Block", "typeId": "3410-4428-ef91-eb61"},
+                  {"name": "Specials", "$text": "Combo Attack (0)", "typeId": "cdaf-b6ac-89d4-39ef"},
+                  {"name": "Unique Effects", "typeId": "3bf8-6525-f003-4990"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Unique Effects",
+            "id": "b781-ec89-963e-be0e",
+            "hidden": false,
+            "profiles": [
+              {
+                "name": "Starting Phase",
+                "id": "e38e-d220-91fa-a24d",
+                "hidden": false,
+                "typeId": "2f00-4eb0-a8cb-7022",
+                "typeName": "Unique Effects",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "In the Starting Phase inflict 1 Wound on each Enemy Lesser Kami model within 6\".\nThis model then gains an ability based on the types of Kami Wounded:\n- Water Kami: This model Heals 2 Wounds.\n- Fire Kami: This model's Weapons gain Fire (2/1).\n- Air Kami: This model gains +1 Move and Lightfooted.\n- Void Kami: Place 1 Void Counter on the Blessings of the Void Communal Card.\n- Metal Kami: This model gains Powerful Attack (0).\n- Earth Kami: This model gains Tough (1).\n- Other Lesser Kami: This model gains an Activation Counter.",
+                    "typeId": "6de4-d067-c2aa-0dc2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Feats",
+            "id": "5aa4-4e10-6b88-e31f",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Contemplate No Mind", "id": "848b-6480-7944-3cd5", "hidden": false, "targetId": "9821-2235-bd3c-002a", "type": "infoGroup"},
+              {"name": "Touch the Silence", "id": "749f-4216-c3bf-0830", "hidden": false, "targetId": "0783-664e-5eb7-128b", "type": "infoGroup"},
+              {"name": "Rage Against Time", "id": "9135-4f4c-ef4e-fb0b", "hidden": false, "targetId": "7ec4-c6f8-7404-719c", "type": "infoGroup"}
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Master Shi",
+            "id": "d071-4fa1-c204-2e6a",
+            "hidden": false,
+            "typeId": "08e8-3cf2-6d1d-b8f0",
+            "typeName": "Character Profile",
+            "characteristics": [
+              {"name": "Melee Pool", "$text": "4", "typeId": "eea0-d5a3-2540-a974"},
+              {"name": "Melee Boost", "typeId": "4d43-9498-6fa0-8277"},
+              {"name": "Ranged Pool", "$text": "4", "typeId": "54f1-7472-e609-b4eb"},
+              {"name": "Ranged Boost", "typeId": "5454-b765-a65d-8a33"},
+              {"name": "Move", "$text": "4", "typeId": "91b7-833e-fd8e-a620"},
+              {"name": "Move Boost", "typeId": "f168-6d2b-e60e-28ac"},
+              {"name": "Ki", "$text": "3", "typeId": "3969-9568-a914-6854"},
+              {"name": "Ki Boost", "typeId": "5b71-1ed7-9aa7-039c"},
+              {"name": "Ki Cap", "$text": "0", "typeId": "9a7e-38d3-92c5-a672"},
+              {"name": "Wounds", "$text": "6 OOOOO O", "typeId": "2ee5-ab93-4a78-ea29"},
+              {"name": "Size & Base", "$text": "30mm Small", "typeId": "6cf9-c5fd-3e3c-b35b"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maru",
+        "id": "0fff-5e22-84a2-48d6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Faction: Kinshi Temple", "id": "b077-a310-2aae-e61d", "hidden": false, "primary": false, "targetId": "943d-6b70-d85b-fb7b"},
+          {"name": "Faction Profile Cards", "id": "1671-557f-2c09-1e6e", "hidden": false, "primary": true, "targetId": "0ca8-2040-37f2-a1e0"},
+          {"name": "Monk", "id": "0544-9512-0d7b-0175", "hidden": false, "primary": false, "targetId": "57a9-2b8a-3729-1ad8"},
+          {"name": "Satsui", "id": "f425-91fe-86cd-f03c", "hidden": false, "primary": false, "targetId": "a94e-8398-e4cc-2fb0"},
+          {"name": "Element: Void", "id": "929a-69b0-535c-06f3", "hidden": false, "primary": false, "targetId": "18b7-00de-cec4-40ca"},
+          {"name": "Unique", "id": "e7f0-f52f-a3fc-26b3", "hidden": false, "primary": false, "targetId": "afd4-8041-e359-223c"}
+        ],
+        "constraints": [
+          {
+            "id": "37cc-62b8-045e-c943",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 14}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "0e97-1a98-1f72-d65b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "36b2-5747-21c9-8865",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Traits",
+            "id": "80d6-9bcd-db3a-6751",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Durable", "id": "fc2b-246a-602d-465b", "hidden": false, "targetId": "3612-7e19-3cb9-72d0", "type": "rule"},
+              {"name": "Intangible", "id": "a330-6942-ffc4-bc8b", "hidden": false, "targetId": "7f5c-c63d-f96f-65af", "type": "rule"},
+              {"name": "Kata", "id": "1da5-e6d2-5095-356a", "hidden": false, "targetId": "7283-1e6d-cb9c-f1c8", "type": "rule"},
+              {"name": "Slow", "id": "219d-d05f-c795-f390", "hidden": false, "targetId": "f1c3-4a84-c616-23cd", "type": "rule"},
+              {"name": "Sixth Sense", "id": "0711-ad3b-7b1c-ea39", "hidden": false, "targetId": "ec49-3908-f1d1-8de2", "type": "rule"},
+              {"name": "Soulless", "id": "d195-2465-1976-e36b", "hidden": false, "targetId": "af31-aad0-fcea-9590", "type": "rule"},
+              {"name": "Strong", "id": "d6f2-7c97-53fc-e950", "hidden": false, "targetId": "00b5-3637-d48a-807e", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Maru",
+                "id": "f918-bbdb-5b80-4157",
+                "hidden": false,
+                "typeId": "b175-cf39-0ab9-4d58",
+                "typeName": "Character Traits",
+                "characteristics": [{"name": "Traits", "$text": "Aware, Bravery, Jump Up, Kata", "typeId": "6fb8-4540-ed80-9332"}]
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapon",
+            "id": "ad84-5fc6-c076-1be8",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Sidestep Attack ", "id": "8301-6ff0-9ba1-f0b8", "hidden": false, "targetId": "070d-a69d-0b46-27dc", "type": "rule"},
+              {"name": "Forceback Attack", "id": "d78e-db46-6354-c267", "hidden": false, "targetId": "2682-7c66-4163-28f2", "type": "rule"},
+              {"name": "Slam Attack", "id": "f119-abdb-370e-5efb", "hidden": false, "targetId": "5d05-b0ce-d7db-9def", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Satsui Bujutsu",
+                "id": "ad55-646f-fee8-0032",
+                "hidden": false,
+                "typeId": "2b50-015d-0ea9-d9aa",
+                "typeName": "Melee Weapon",
+                "characteristics": [
+                  {"name": "Melee Weapon Strength", "$text": "+1", "typeId": "98e7-55ef-7ced-d4ba"},
+                  {"name": "Traits", "typeId": "39e3-f945-7956-ad4e"},
+                  {"name": "Specials", "$text": "Sidestep Attack (0), Forceback Attack (0), Slam Attack (1)", "typeId": "85a9-0a2b-f966-0c8d"},
+                  {"name": "Unique Effects", "typeId": "2561-7ce8-3a17-1289"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Unique Effects",
+            "id": "2574-39a1-8ac6-58c2",
+            "hidden": false,
+            "profiles": [
+              {
+                "name": "Starting Phase",
+                "id": "fef9-e8d3-692d-5ec9",
+                "hidden": false,
+                "typeId": "2f00-4eb0-a8cb-7022",
+                "typeName": "Unique Effects",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "In the Starting Phase, choose 1 Void Rift within 6\" of this model and Place that Void Rift within 1\" of its current location.",
+                    "typeId": "6de4-d067-c2aa-0dc2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Feats",
+            "id": "d3ad-e724-5ca1-3295",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Forbidden Force", "id": "2294-62cf-f7ac-1144", "hidden": false, "targetId": "89ad-5a08-112e-c13d", "type": "infoGroup"},
+              {"name": "Time Spiral", "id": "696b-ca25-ebb9-f038", "hidden": false, "targetId": "9449-6fc1-8166-b6f0", "type": "infoGroup"}
+            ]
+          },
+          {
+            "name": "Ranged Weapon",
+            "id": "2e7f-9f84-229a-1f58",
+            "hidden": false,
+            "profiles": [
+              {
+                "name": "Kiai",
+                "id": "80c2-ace3-8f80-4937",
+                "hidden": false,
+                "typeId": "7e20-258e-bf92-18f9",
+                "typeName": "Ranged Weapon",
+                "characteristics": [
+                  {"name": "Ranged Weapon Strength", "$text": "Special", "typeId": "15aa-b6bd-6923-271f"},
+                  {"name": "Range Bands", "$text": "3/5/7", "typeId": "be6a-50c6-d691-e2e9"},
+                  {"name": "Traits", "typeId": "3410-4428-ef91-eb61"},
+                  {"name": "Specials", "typeId": "cdaf-b6ac-89d4-39ef"},
+                  {
+                    "name": "Unique Effects",
+                    "$text": "This Weapon does no Damage but on a successful Attack, the Target gains a Spirit Block Marker.",
+                    "typeId": "3bf8-6525-f003-4990"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Maru",
+            "id": "1178-6d3b-dc90-9c2e",
+            "hidden": false,
+            "typeId": "08e8-3cf2-6d1d-b8f0",
+            "typeName": "Character Profile",
+            "characteristics": [
+              {"name": "Melee Pool", "$text": "3", "typeId": "eea0-d5a3-2540-a974"},
+              {"name": "Melee Boost", "typeId": "4d43-9498-6fa0-8277"},
+              {"name": "Ranged Pool", "$text": "2", "typeId": "54f1-7472-e609-b4eb"},
+              {"name": "Ranged Boost", "typeId": "5454-b765-a65d-8a33"},
+              {"name": "Move", "$text": "4", "typeId": "91b7-833e-fd8e-a620"},
+              {"name": "Move Boost", "typeId": "f168-6d2b-e60e-28ac"},
+              {"name": "Ki", "$text": "2", "typeId": "3969-9568-a914-6854"},
+              {"name": "Ki Boost", "typeId": "5b71-1ed7-9aa7-039c"},
+              {"name": "Ki Cap", "$text": "0", "typeId": "9a7e-38d3-92c5-a672"},
+              {"name": "Wounds", "$text": "6 OOOOO O", "typeId": "2ee5-ab93-4a78-ea29"},
+              {"name": "Size & Base", "$text": "30mm Small", "typeId": "6cf9-c5fd-3e3c-b35b"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Batsu",
+        "id": "3cc6-0c2b-8bbb-8a62",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Faction: Kinshi Temple", "id": "2bb1-90cd-b716-623f", "hidden": false, "primary": false, "targetId": "943d-6b70-d85b-fb7b"},
+          {"name": "Faction Profile Cards", "id": "0fcf-b2f0-d050-5e0f", "hidden": false, "primary": true, "targetId": "0ca8-2040-37f2-a1e0"},
+          {"name": "Monk", "id": "c657-6efc-772b-39cc", "hidden": false, "primary": false, "targetId": "57a9-2b8a-3729-1ad8"},
+          {"name": "Satsui", "id": "9f89-2fac-f835-e485", "hidden": false, "primary": false, "targetId": "a94e-8398-e4cc-2fb0"},
+          {"name": "Element: Void", "id": "3688-0976-ad08-6811", "hidden": false, "primary": false, "targetId": "18b7-00de-cec4-40ca"},
+          {"name": "Unique", "id": "bc47-afcd-3e29-181b", "hidden": false, "primary": false, "targetId": "afd4-8041-e359-223c"}
+        ],
+        "constraints": [
+          {
+            "id": "4b0e-d998-f3c4-5116",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 17}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "d430-1df3-62a0-31cc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "36b2-5747-21c9-8865",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Melee Weapon",
+            "id": "ff04-276f-db17-0dc7",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Ki Block", "id": "5b14-c24a-e1ea-e5d5", "hidden": false, "targetId": "d134-7fba-38f0-8896", "type": "rule"},
+              {"name": "Push Attack", "id": "beb8-6324-2d1c-6b9e", "hidden": false, "targetId": "6c26-94ba-6b96-9e1b", "type": "rule"},
+              {"name": "Powerful Attack", "id": "73b4-44c1-dd68-e562", "hidden": false, "targetId": "d56a-058d-95d9-5b60", "type": "rule"},
+              {"name": "Sidestep Attack ", "id": "dc22-98f7-11be-1a26", "hidden": false, "targetId": "070d-a69d-0b46-27dc", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Satsui Bujutsu",
+                "id": "35e8-b603-bbf4-f150",
+                "hidden": false,
+                "typeId": "2b50-015d-0ea9-d9aa",
+                "typeName": "Melee Weapon",
+                "characteristics": [
+                  {"name": "Melee Weapon Strength", "$text": "+0", "typeId": "98e7-55ef-7ced-d4ba"},
+                  {"name": "Traits", "$text": "Ki Block", "typeId": "39e3-f945-7956-ad4e"},
+                  {"name": "Specials", "$text": "Sidestep Attack (0), Push Attack (0), Powerful Attack (1)", "typeId": "85a9-0a2b-f966-0c8d"},
+                  {"name": "Unique Effects", "typeId": "2561-7ce8-3a17-1289"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Unique Effects",
+            "id": "8e8b-e290-169c-4476",
+            "hidden": false,
+            "profiles": [
+              {
+                "name": "Unique Effects",
+                "id": "e4d4-d1a7-7f2e-2a9e",
+                "hidden": false,
+                "typeId": "2f00-4eb0-a8cb-7022",
+                "typeName": "Unique Effects",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "When an Enemy model removes a Death Sentence Marker, you may add 1 Void Counter to the Blessings of the Void Communal Card.\nWhen this model deals Damage in a Melee Exchange, once the activation is complete, you may place this model in BtB contact with a Void Rift.",
+                    "typeId": "6de4-d067-c2aa-0dc2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Feats",
+            "id": "c83f-e1e2-dc31-4fcf",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Scorch the Earth", "id": "2426-915b-8b66-2943", "hidden": false, "targetId": "78c4-ecd6-4134-860b", "type": "infoGroup"},
+              {"name": "Forbidden Censure", "id": "bb36-f4e3-9308-5d9d", "hidden": false, "targetId": "6086-d3d6-5abd-757b", "type": "infoGroup"}
+            ]
+          },
+          {
+            "name": "Ranged Weapon",
+            "id": "a7bb-4119-8bc3-a0c5",
+            "hidden": false,
+            "profiles": [
+              {
+                "name": "Kiai",
+                "id": "5d84-ad0b-6ede-16f4",
+                "hidden": false,
+                "typeId": "7e20-258e-bf92-18f9",
+                "typeName": "Ranged Weapon",
+                "characteristics": [
+                  {"name": "Ranged Weapon Strength", "$text": "Special", "typeId": "15aa-b6bd-6923-271f"},
+                  {"name": "Range Bands", "$text": "3/5/7", "typeId": "be6a-50c6-d691-e2e9"},
+                  {"name": "Traits", "typeId": "3410-4428-ef91-eb61"},
+                  {"name": "Specials", "typeId": "cdaf-b6ac-89d4-39ef"},
+                  {
+                    "name": "Unique Effects",
+                    "$text": "This Weapon does no Damage but on a successful Attack, the Target gains a Spirit Block Marker.",
+                    "typeId": "3bf8-6525-f003-4990"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Traits",
+            "id": "9769-0c74-6169-d13d",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Kata", "id": "b66b-4c2a-3481-3b75", "hidden": false, "targetId": "7283-1e6d-cb9c-f1c8", "type": "rule"},
+              {"name": "Ranged Defence ", "id": "3957-affc-532d-98de", "hidden": true, "targetId": "9b8d-9ca9-e25d-3988", "type": "rule"},
+              {"name": "Jump Up", "id": "5f90-09ae-3358-4577", "hidden": false, "targetId": "1575-e12f-4ca3-c557", "type": "rule"},
+              {"name": "Vengeance", "id": "00e5-a237-80ed-d4fb", "hidden": false, "targetId": "6779-0aac-2f51-f67e", "type": "rule"},
+              {"name": "Immune", "id": "ecd4-88c9-76bf-9b00", "hidden": false, "targetId": "ea08-b25e-0ea8-af73", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Batsu",
+                "id": "d020-40eb-f50a-a94e",
+                "hidden": false,
+                "typeId": "b175-cf39-0ab9-4d58",
+                "typeName": "Character Traits",
+                "characteristics": [{"name": "Traits", "$text": "Immune [Fire], Jump Up, Kata, Ranged Defence (1), Vengeance [Monk]", "typeId": "6fb8-4540-ed80-9332"}]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Batsu",
+            "id": "ad84-d55d-1aeb-c846",
+            "hidden": false,
+            "typeId": "08e8-3cf2-6d1d-b8f0",
+            "typeName": "Character Profile",
+            "characteristics": [
+              {"name": "Melee Pool", "$text": "3", "typeId": "eea0-d5a3-2540-a974"},
+              {"name": "Melee Boost", "typeId": "4d43-9498-6fa0-8277"},
+              {"name": "Ranged Pool", "$text": "2", "typeId": "54f1-7472-e609-b4eb"},
+              {"name": "Ranged Boost", "typeId": "5454-b765-a65d-8a33"},
+              {"name": "Move", "$text": "4", "typeId": "91b7-833e-fd8e-a620"},
+              {"name": "Move Boost", "typeId": "f168-6d2b-e60e-28ac"},
+              {"name": "Ki", "$text": "2", "typeId": "3969-9568-a914-6854"},
+              {"name": "Ki Boost", "typeId": "5b71-1ed7-9aa7-039c"},
+              {"name": "Ki Cap", "$text": "0", "typeId": "9a7e-38d3-92c5-a672"},
+              {"name": "Wounds", "$text": "6 OOOOO O", "typeId": "2ee5-ab93-4a78-ea29"},
+              {"name": "Size & Base", "$text": "30mm Small", "typeId": "6cf9-c5fd-3e3c-b35b"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hishigata",
+        "id": "1d49-ac4f-8aa7-5bf2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Faction: Kinshi Temple", "id": "e3ed-2364-137a-6f8f", "hidden": false, "primary": false, "targetId": "943d-6b70-d85b-fb7b"},
+          {"name": "Faction Profile Cards", "id": "fabe-b17e-1458-7c96", "hidden": false, "primary": true, "targetId": "0ca8-2040-37f2-a1e0"},
+          {"name": "Monk", "id": "e950-6cb7-ea40-d64f", "hidden": false, "primary": false, "targetId": "57a9-2b8a-3729-1ad8"},
+          {"name": "Satsui", "id": "46ff-ba3f-c64c-5089", "hidden": false, "primary": false, "targetId": "a94e-8398-e4cc-2fb0"},
+          {"name": "Element: Void", "id": "6841-a965-7c34-193d", "hidden": false, "primary": false, "targetId": "18b7-00de-cec4-40ca"},
+          {"name": "Unique", "id": "8331-c0fb-ecc7-b328", "hidden": false, "primary": false, "targetId": "afd4-8041-e359-223c"},
+          {"name": "Husk", "id": "833c-c217-927b-3a77", "hidden": false, "primary": false, "targetId": "46bf-24f2-a055-022c"}
+        ],
+        "constraints": [
+          {
+            "id": "0650-fdeb-023e-3494",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 10}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "f452-6310-95f7-c724",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "36b2-5747-21c9-8865",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Traits",
+            "id": "5bc7-0bd4-03a3-ac13",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Kata", "id": "d132-fb2a-1c9e-3581", "hidden": false, "targetId": "7283-1e6d-cb9c-f1c8", "type": "rule"},
+              {"name": "Slow", "id": "4e72-3a0a-3673-5a49", "hidden": false, "targetId": "f1c3-4a84-c616-23cd", "type": "rule"},
+              {"name": "Ranged Defence ", "id": "822f-2378-b97f-e89e", "hidden": false, "targetId": "9b8d-9ca9-e25d-3988", "type": "rule"},
+              {"name": "Soulless", "id": "d620-feec-fc79-1389", "hidden": false, "targetId": "af31-aad0-fcea-9590", "type": "rule"},
+              {"name": "Strong", "id": "71fb-5d54-28e0-9dcf", "hidden": false, "targetId": "00b5-3637-d48a-807e", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Hishigata",
+                "id": "0645-a406-3736-edcd",
+                "hidden": false,
+                "typeId": "b175-cf39-0ab9-4d58",
+                "typeName": "Character Traits",
+                "characteristics": [{"name": "Traits", "$text": "Kata, Ranged Defence (1), Slow, Soulless, Strong", "typeId": "6fb8-4540-ed80-9332"}]
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapon",
+            "id": "bd1c-ce01-2273-8f78",
+            "hidden": false,
+            "infoLinks": [{"name": "Ki Block", "id": "2af9-7cb7-cc8f-f615", "hidden": false, "targetId": "d134-7fba-38f0-8896", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Satsui Bujutsu",
+                "id": "433a-9ec0-5be4-694f",
+                "hidden": false,
+                "typeId": "2b50-015d-0ea9-d9aa",
+                "typeName": "Melee Weapon",
+                "characteristics": [
+                  {"name": "Melee Weapon Strength", "$text": "+0", "typeId": "98e7-55ef-7ced-d4ba"},
+                  {"name": "Traits", "$text": "Ki Block", "typeId": "39e3-f945-7956-ad4e"},
+                  {"name": "Specials", "typeId": "85a9-0a2b-f966-0c8d"},
+                  {"name": "Unique Effects", "typeId": "2561-7ce8-3a17-1289"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Unique Effects",
+            "id": "ebf9-66e1-a096-5654",
+            "hidden": false,
+            "profiles": [
+              {
+                "name": "Unique Effects",
+                "id": "09ca-6b37-69d3-68db",
+                "hidden": false,
+                "typeId": "2f00-4eb0-a8cb-7022",
+                "typeName": "Unique Effects",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "When this model is Killed, you may choose 1 of the following:\n- Replace this model with a Void Rift.\n- Replace this model with Kodai.\n\nThis can be used to Deploy a Replacing model in BtB or ZoC.",
+                    "typeId": "6de4-d067-c2aa-0dc2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Feats",
+            "id": "d74c-1fe5-a19d-4035",
+            "hidden": false,
+            "infoLinks": [{"name": "Obscured by Umbra", "id": "4f86-1e8b-26d9-64d4", "hidden": false, "targetId": "2196-6457-6d3b-42fd", "type": "infoGroup"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Hishigata",
+            "id": "16d9-04e7-d857-3727",
+            "hidden": false,
+            "typeId": "08e8-3cf2-6d1d-b8f0",
+            "typeName": "Character Profile",
+            "characteristics": [
+              {"name": "Melee Pool", "$text": "2", "typeId": "eea0-d5a3-2540-a974"},
+              {"name": "Melee Boost", "typeId": "4d43-9498-6fa0-8277"},
+              {"name": "Ranged Pool", "$text": "0", "typeId": "54f1-7472-e609-b4eb"},
+              {"name": "Ranged Boost", "typeId": "5454-b765-a65d-8a33"},
+              {"name": "Move", "$text": "4", "typeId": "91b7-833e-fd8e-a620"},
+              {"name": "Move Boost", "typeId": "f168-6d2b-e60e-28ac"},
+              {"name": "Ki", "$text": "0", "typeId": "3969-9568-a914-6854"},
+              {"name": "Ki Boost", "typeId": "5b71-1ed7-9aa7-039c"},
+              {"name": "Ki Cap", "$text": "0", "typeId": "9a7e-38d3-92c5-a672"},
+              {"name": "Wounds", "$text": "5 OOOOO", "typeId": "2ee5-ab93-4a78-ea29"},
+              {"name": "Size & Base", "$text": "30mm Small", "typeId": "6cf9-c5fd-3e3c-b35b"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nagashikaku",
+        "id": "3e1b-8c7c-8e22-b3a0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Faction: Kinshi Temple", "id": "21b0-0a0c-751f-75aa", "hidden": false, "primary": false, "targetId": "943d-6b70-d85b-fb7b"},
+          {"name": "Faction Profile Cards", "id": "ca14-05c7-7e86-3a1a", "hidden": false, "primary": true, "targetId": "0ca8-2040-37f2-a1e0"},
+          {"name": "Monk", "id": "4f16-4438-45f9-999a", "hidden": false, "primary": false, "targetId": "57a9-2b8a-3729-1ad8"},
+          {"name": "Satsui", "id": "4a34-b7cc-b543-29e1", "hidden": false, "primary": false, "targetId": "a94e-8398-e4cc-2fb0"},
+          {"name": "Element: Void", "id": "854a-51f3-1dc4-487f", "hidden": false, "primary": false, "targetId": "18b7-00de-cec4-40ca"},
+          {"name": "Unique", "id": "4a63-7940-34a3-4a7b", "hidden": false, "primary": false, "targetId": "afd4-8041-e359-223c"},
+          {"name": "Husk", "id": "f8f3-824b-79a7-c72d", "hidden": false, "primary": false, "targetId": "46bf-24f2-a055-022c"}
+        ],
+        "constraints": [
+          {
+            "id": "3307-2c4d-5d66-2c7a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 10}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "490e-938c-b3af-0f4b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "36b2-5747-21c9-8865",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Traits",
+            "id": "265a-2b6a-6ddc-172f",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Kata", "id": "c8de-15d0-69f2-b160", "hidden": false, "targetId": "7283-1e6d-cb9c-f1c8", "type": "rule"},
+              {"name": "Slow", "id": "1b2a-9909-97da-b8ac", "hidden": false, "targetId": "f1c3-4a84-c616-23cd", "type": "rule"},
+              {"name": "Ranged Defence ", "id": "df67-47b7-2601-750c", "hidden": false, "targetId": "9b8d-9ca9-e25d-3988", "type": "rule"},
+              {"name": "Soulless", "id": "ee6a-500f-1c83-48ee", "hidden": false, "targetId": "af31-aad0-fcea-9590", "type": "rule"},
+              {"name": "Strong", "id": "cc1d-c53c-cf0a-ccb7", "hidden": false, "targetId": "00b5-3637-d48a-807e", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Nagashikaku",
+                "id": "2de7-88d6-7005-7771",
+                "hidden": false,
+                "typeId": "b175-cf39-0ab9-4d58",
+                "typeName": "Character Traits",
+                "characteristics": [{"name": "Traits", "$text": "Kata, Ranged Defence (1), Slow, Soulless, Strong", "typeId": "6fb8-4540-ed80-9332"}]
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapon",
+            "id": "0da8-c467-f3a9-712f",
+            "hidden": false,
+            "infoLinks": [{"name": "Ki Block", "id": "3a0f-ef15-dfff-2582", "hidden": false, "targetId": "d134-7fba-38f0-8896", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Satsui Bujutsu",
+                "id": "46f1-8b27-e655-1f03",
+                "hidden": false,
+                "typeId": "2b50-015d-0ea9-d9aa",
+                "typeName": "Melee Weapon",
+                "characteristics": [
+                  {"name": "Melee Weapon Strength", "$text": "+0", "typeId": "98e7-55ef-7ced-d4ba"},
+                  {"name": "Traits", "$text": "Ki Block", "typeId": "39e3-f945-7956-ad4e"},
+                  {"name": "Specials", "typeId": "85a9-0a2b-f966-0c8d"},
+                  {"name": "Unique Effects", "typeId": "2561-7ce8-3a17-1289"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Unique Effects",
+            "id": "02a5-42ae-0fff-d621",
+            "hidden": false,
+            "profiles": [
+              {
+                "name": "Unique Effects",
+                "id": "9571-0145-7444-8650",
+                "hidden": false,
+                "typeId": "2f00-4eb0-a8cb-7022",
+                "typeName": "Unique Effects",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "When this model is Killed, you may choose 1 of the following:\n- Replace this model with a Void Rift.\n- Replace this model with a Lesser Void Kami.\n\nThis can be used to Deploy a Replacing model in BtB or ZoC.",
+                    "typeId": "6de4-d067-c2aa-0dc2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Feats",
+            "id": "d171-be5c-836a-52d3",
+            "hidden": false,
+            "infoLinks": [{"name": "Empower the Void", "id": "788c-e319-a149-f0cc", "hidden": false, "targetId": "e41e-b87e-a0fb-6ee4", "type": "infoGroup"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Nagashikaku",
+            "id": "6f2a-a8d0-71b9-8955",
+            "hidden": false,
+            "typeId": "08e8-3cf2-6d1d-b8f0",
+            "typeName": "Character Profile",
+            "characteristics": [
+              {"name": "Melee Pool", "$text": "2", "typeId": "eea0-d5a3-2540-a974"},
+              {"name": "Melee Boost", "typeId": "4d43-9498-6fa0-8277"},
+              {"name": "Ranged Pool", "$text": "0", "typeId": "54f1-7472-e609-b4eb"},
+              {"name": "Ranged Boost", "typeId": "5454-b765-a65d-8a33"},
+              {"name": "Move", "$text": "4", "typeId": "91b7-833e-fd8e-a620"},
+              {"name": "Move Boost", "typeId": "f168-6d2b-e60e-28ac"},
+              {"name": "Ki", "$text": "0", "typeId": "3969-9568-a914-6854"},
+              {"name": "Ki Boost", "typeId": "5b71-1ed7-9aa7-039c"},
+              {"name": "Ki Cap", "$text": "0", "typeId": "9a7e-38d3-92c5-a672"},
+              {"name": "Wounds", "$text": "5 OOOOO", "typeId": "2ee5-ab93-4a78-ea29"},
+              {"name": "Size & Base", "$text": "30mm Small", "typeId": "6cf9-c5fd-3e3c-b35b"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ku",
+        "id": "95d6-c595-9afe-0e15",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Faction: Kinshi Temple", "id": "e126-9096-4f53-0d82", "hidden": false, "primary": false, "targetId": "943d-6b70-d85b-fb7b"},
+          {"name": "Faction Profile Cards", "id": "ed80-db81-764c-64f5", "hidden": false, "primary": true, "targetId": "0ca8-2040-37f2-a1e0"},
+          {"name": "Monk", "id": "65b1-0d4d-de8b-b9a8", "hidden": false, "primary": false, "targetId": "57a9-2b8a-3729-1ad8"},
+          {"name": "Satsui", "id": "18d5-f667-d754-0a0c", "hidden": false, "primary": false, "targetId": "a94e-8398-e4cc-2fb0"},
+          {"name": "Element: Void", "id": "7532-bdb9-1aa9-9627", "hidden": false, "primary": false, "targetId": "18b7-00de-cec4-40ca"},
+          {"name": "Unique", "id": "fdfa-4580-bac6-0b9e", "hidden": false, "primary": false, "targetId": "afd4-8041-e359-223c"}
+        ],
+        "constraints": [
+          {
+            "id": "2b3d-a2af-8332-af02",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 22}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "15bc-7c7e-dca8-072c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "36b2-5747-21c9-8865",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Traits",
+            "id": "8e71-4b27-e5d0-98f1",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Kata", "id": "029f-b164-1c27-3d63", "hidden": false, "targetId": "7283-1e6d-cb9c-f1c8", "type": "rule"},
+              {"name": "Bravery", "id": "9e6b-d606-8ef8-dc1c", "hidden": true, "targetId": "f9b2-38d2-7cda-de6e", "type": "rule"},
+              {"name": "Indomitable ", "id": "25d0-e999-79f4-4c72", "hidden": false, "targetId": "3beb-6f28-e7c4-a236", "type": "rule"},
+              {"name": "Cloudwalk", "id": "efff-b69f-4f36-f5c1", "hidden": false, "targetId": "538c-1266-626b-fcc9", "type": "rule"},
+              {"name": "Tireless", "id": "6539-9d02-0ea6-2bad", "hidden": false, "targetId": "5829-35f3-dd19-1290", "type": "rule"},
+              {"name": "Split Attack", "id": "8966-8e20-18f2-7cb8", "hidden": false, "targetId": "92d0-d4fe-e58e-7535", "type": "rule"},
+              {"name": "Jump Up", "id": "e6ca-7340-c6d4-daa2", "hidden": false, "targetId": "1575-e12f-4ca3-c557", "type": "rule"},
+              {"name": "Dodge ", "id": "771a-42c4-16be-8d34", "hidden": false, "targetId": "14d5-d459-5d8a-c73e", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Ku",
+                "id": "1353-8af6-39cd-f3ab",
+                "hidden": false,
+                "typeId": "b175-cf39-0ab9-4d58",
+                "typeName": "Character Traits",
+                "characteristics": [{"name": "Traits", "$text": "Bravery, Cloudwalk, Dodge (1), Indomitable (1), Jump Up, Kata, Split Attack, Tireless", "typeId": "6fb8-4540-ed80-9332"}]
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapon",
+            "id": "ff8a-c5b3-a096-7d20",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Ki Block", "id": "3bbf-1d6c-6182-8242", "hidden": false, "targetId": "d134-7fba-38f0-8896", "type": "rule"},
+              {"name": "Slam Attack", "id": "1011-ccfd-0396-3bed", "hidden": false, "targetId": "5d05-b0ce-d7db-9def", "type": "rule"},
+              {"name": "Push Defence", "id": "c156-d9c6-c604-d606", "hidden": false, "targetId": "74fc-a971-d9c2-278c", "type": "rule"},
+              {"name": "Sidestep Attack ", "id": "6923-ee0d-389a-023d", "hidden": false, "targetId": "070d-a69d-0b46-27dc", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Staff",
+                "id": "10ab-aa11-32ee-e766",
+                "hidden": false,
+                "typeId": "2b50-015d-0ea9-d9aa",
+                "typeName": "Melee Weapon",
+                "characteristics": [
+                  {"name": "Melee Weapon Strength", "$text": "+1", "typeId": "98e7-55ef-7ced-d4ba"},
+                  {"name": "Traits", "$text": "Reach, Ki Block", "typeId": "39e3-f945-7956-ad4e"},
+                  {"name": "Specials", "$text": "Sidestep Attack (0), Slam Attack (1), Push Defence (0)", "typeId": "85a9-0a2b-f966-0c8d"},
+                  {"name": "Unique Effects", "typeId": "2561-7ce8-3a17-1289"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Unique Effects",
+            "id": "791f-b9ce-e949-f86e",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Fear", "id": "c427-64fa-dc7a-07ae", "hidden": false, "targetId": "3586-4583-7f10-1f31", "type": "rule"},
+              {"name": "Terror", "id": "aae6-aed4-75c0-c19f", "hidden": false, "targetId": "ad7a-5dea-fee4-fb49", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Unique Effects",
+                "id": "5354-aa28-b01d-4a4e",
+                "hidden": false,
+                "typeId": "2f00-4eb0-a8cb-7022",
+                "typeName": "Unique Effects",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "The first time this model deals Damage as a result of a Melee Exchange, place 1 Void Counter on the Blessings of the Void Communal Card.\n\nThis model treats Master Enos as having the traits Fear (6) and Terror.",
+                    "typeId": "6de4-d067-c2aa-0dc2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Feats",
+            "id": "dff2-bc17-8ce2-8a95",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Stronger Than Hate", "id": "b314-8c3c-143d-09a7", "hidden": false, "targetId": "0187-2a9e-8401-347e", "type": "infoGroup"},
+              {"name": "Unseen Anger", "id": "7e58-db7d-b467-4145", "hidden": false, "targetId": "5239-f702-e68e-98ee", "type": "infoGroup"}
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Ku",
+            "id": "0c86-60e8-210b-d420",
+            "hidden": false,
+            "typeId": "08e8-3cf2-6d1d-b8f0",
+            "typeName": "Character Profile",
+            "characteristics": [
+              {"name": "Melee Pool", "$text": "4", "typeId": "eea0-d5a3-2540-a974"},
+              {"name": "Melee Boost", "typeId": "4d43-9498-6fa0-8277"},
+              {"name": "Ranged Pool", "$text": "3", "typeId": "54f1-7472-e609-b4eb"},
+              {"name": "Ranged Boost", "typeId": "5454-b765-a65d-8a33"},
+              {"name": "Move", "$text": "4", "typeId": "91b7-833e-fd8e-a620"},
+              {"name": "Move Boost", "typeId": "f168-6d2b-e60e-28ac"},
+              {"name": "Ki", "$text": "2", "typeId": "3969-9568-a914-6854"},
+              {"name": "Ki Boost", "typeId": "5b71-1ed7-9aa7-039c"},
+              {"name": "Ki Cap", "$text": "0", "typeId": "9a7e-38d3-92c5-a672"},
+              {"name": "Wounds", "$text": "6 OOOOO O", "typeId": "2ee5-ab93-4a78-ea29"},
+              {"name": "Size & Base", "$text": "30mm Small", "typeId": "6cf9-c5fd-3e3c-b35b"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shikaku",
+        "id": "c943-4b66-5f00-c05b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Faction: Kinshi Temple", "id": "db76-e884-1f31-8168", "hidden": false, "primary": false, "targetId": "943d-6b70-d85b-fb7b"},
+          {"name": "Faction Profile Cards", "id": "2ca9-caaa-098a-e132", "hidden": false, "primary": true, "targetId": "0ca8-2040-37f2-a1e0"},
+          {"name": "Monk", "id": "dbea-d95c-e3df-8035", "hidden": false, "primary": false, "targetId": "57a9-2b8a-3729-1ad8"},
+          {"name": "Satsui", "id": "9d4e-9157-9408-e3f0", "hidden": false, "primary": false, "targetId": "a94e-8398-e4cc-2fb0"},
+          {"name": "Element: Void", "id": "514b-3629-0f64-1787", "hidden": false, "primary": false, "targetId": "18b7-00de-cec4-40ca"},
+          {"name": "Unique", "id": "b817-558e-3669-99f2", "hidden": false, "primary": false, "targetId": "afd4-8041-e359-223c"}
+        ],
+        "constraints": [
+          {
+            "id": "e135-6c3a-fb70-1e18",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 16}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "d856-c897-41f3-49ed",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "36b2-5747-21c9-8865",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Traits",
+            "id": "0932-77f3-0b0f-48d1",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Kata", "id": "e69f-467c-a5ee-b5a8", "hidden": false, "targetId": "7283-1e6d-cb9c-f1c8", "type": "rule"},
+              {"name": "Bravery", "id": "5f0f-e35f-76e6-20c4", "hidden": true, "targetId": "f9b2-38d2-7cda-de6e", "type": "rule"},
+              {"name": "Steadfast", "id": "cbab-8b39-878c-c5f4", "hidden": false, "targetId": "95e7-3178-c29b-013c", "type": "rule"},
+              {"name": "Resistance ", "id": "4e29-88a3-d692-2159", "hidden": false, "targetId": "7e3f-9dc3-cacb-469f", "type": "rule"},
+              {"name": "Jump Up", "id": "cbbe-49ba-0749-86c2", "hidden": false, "targetId": "1575-e12f-4ca3-c557", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Shikaku",
+                "id": "1df8-59de-a97c-89c0",
+                "hidden": false,
+                "typeId": "b175-cf39-0ab9-4d58",
+                "typeName": "Character Traits",
+                "characteristics": [{"name": "Traits", "$text": "Bravery, Jump Up, Kata, Resistance (1), Steadfast", "typeId": "6fb8-4540-ed80-9332"}]
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapon",
+            "id": "ca92-4eeb-d550-00c7",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Slam Attack", "id": "240d-131f-b7b9-66dc", "hidden": false, "targetId": "5d05-b0ce-d7db-9def", "type": "rule"},
+              {"name": "Throw Attack", "id": "9097-915e-5b7e-3740", "hidden": false, "targetId": "e4a9-1967-fb91-ce07", "type": "rule"},
+              {"name": "Sidestep Attack ", "id": "bc53-e543-aa5d-3bc7", "hidden": false, "targetId": "070d-a69d-0b46-27dc", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Satsui Bujutsu",
+                "id": "9a10-405d-9c5d-66a3",
+                "hidden": false,
+                "typeId": "2b50-015d-0ea9-d9aa",
+                "typeName": "Melee Weapon",
+                "characteristics": [
+                  {"name": "Melee Weapon Strength", "$text": "+0", "typeId": "98e7-55ef-7ced-d4ba"},
+                  {"name": "Traits", "typeId": "39e3-f945-7956-ad4e"},
+                  {"name": "Specials", "$text": "Combo Attack (1), Sidestep Attack (0), Throw Attack (1)", "typeId": "85a9-0a2b-f966-0c8d"},
+                  {"name": "Unique Effects", "typeId": "2561-7ce8-3a17-1289"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Unique Effects",
+            "id": "6797-2927-cbc8-4b93",
+            "hidden": false,
+            "profiles": [
+              {
+                "name": "Unique Effects",
+                "id": "78a1-82b6-7abe-b721",
+                "hidden": false,
+                "typeId": "2f00-4eb0-a8cb-7022",
+                "typeName": "Unique Effects",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "When this model deals Damage in a Melee Exchange, once the activation is complete, you may Place this model in contact with a Void Rift.",
+                    "typeId": "6de4-d067-c2aa-0dc2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Feats",
+            "id": "efda-7626-8730-c13c",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Time Spiral", "id": "46fe-000f-a69e-cdbb", "hidden": false, "targetId": "9449-6fc1-8166-b6f0", "type": "infoGroup"},
+              {"name": "The Void Stares Back", "id": "4c08-128d-9011-8d8e", "hidden": false, "targetId": "336b-8576-4ad8-0cc6", "type": "infoGroup"}
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Shikaku",
+            "id": "ab6b-3a86-0e55-9246",
+            "hidden": false,
+            "typeId": "08e8-3cf2-6d1d-b8f0",
+            "typeName": "Character Profile",
+            "characteristics": [
+              {"name": "Melee Pool", "$text": "3", "typeId": "eea0-d5a3-2540-a974"},
+              {"name": "Melee Boost", "typeId": "4d43-9498-6fa0-8277"},
+              {"name": "Ranged Pool", "$text": "2", "typeId": "54f1-7472-e609-b4eb"},
+              {"name": "Ranged Boost", "typeId": "5454-b765-a65d-8a33"},
+              {"name": "Move", "$text": "4", "typeId": "91b7-833e-fd8e-a620"},
+              {"name": "Move Boost", "typeId": "f168-6d2b-e60e-28ac"},
+              {"name": "Ki", "$text": "2", "typeId": "3969-9568-a914-6854"},
+              {"name": "Ki Boost", "typeId": "5b71-1ed7-9aa7-039c"},
+              {"name": "Ki Cap", "$text": "0", "typeId": "9a7e-38d3-92c5-a672"},
+              {"name": "Wounds", "$text": "6 OOOOO O", "typeId": "2ee5-ab93-4a78-ea29"},
+              {"name": "Size & Base", "$text": "30mm Small", "typeId": "6cf9-c5fd-3e3c-b35b"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zenith of the Void",
+        "id": "f00c-509a-7183-8a02",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Faction Theme Cards", "id": "48ff-cf40-23ab-b761", "hidden": false, "primary": true, "targetId": "477a-e693-0888-08f7"},
+          {"name": "Faction: Kinshi Temple", "id": "43bc-d437-c478-80e7", "hidden": false, "primary": false, "targetId": "943d-6b70-d85b-fb7b"}
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 0}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "f00c-509a-7183-8a02",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "477a-e693-0888-08f7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Zenith of the Void",
+            "id": "f450-6a1d-ab80-b985",
+            "hidden": false,
+            "typeId": "d2bb-86b4-edf3-c4e5",
+            "typeName": "Special Card",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Before the game, place 3 Void Rift Terrain elements on the table within 6\" of the centre point and not within 2\" of any Objective.\n\nPermitted [Satsui]",
+                "typeId": "b4b7-5338-e8e2-41fd"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blessings of the Void",
+        "id": "eca6-be42-ae00-6884",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Communal Cards", "id": "ab18-4994-e793-c5f3", "hidden": false, "primary": true, "targetId": "69a2-397e-9d7b-a47d"}],
+        "constraints": [
+          {
+            "id": "f054-1565-4a7c-0075",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 0}],
+        "infoGroups": [
+          {
+            "name": "Shikaku",
+            "id": "4af8-3613-4da2-8287",
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c943-4b66-5f00-c05b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "04 Shikaku",
+                "id": "1f99-6da4-cc72-302b",
+                "hidden": false,
+                "typeId": "1c8a-f738-1536-a08c",
+                "typeName": "Escalation",
+                "characteristics": [
+                  {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+                  {"name": "Rank", "$text": "1", "typeId": "84f7-58d8-a0a5-4d78"},
+                  {"name": "Card", "$text": "Shikaku", "typeId": "d361-6342-4942-70a7"},
+                  {"name": "Benefit", "$text": "The Void Stares Back feat.", "typeId": "a962-35b8-ac0c-8018"}
+                ]
+              },
+              {
+                "name": "07 Shikaku",
+                "id": "1303-dbf0-6022-cb10",
+                "hidden": false,
+                "typeId": "1c8a-f738-1536-a08c",
+                "typeName": "Escalation",
+                "characteristics": [
+                  {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+                  {"name": "Rank", "$text": "2", "typeId": "84f7-58d8-a0a5-4d78"},
+                  {"name": "Card", "$text": "Shikaku", "typeId": "d361-6342-4942-70a7"},
+                  {"name": "Benefit", "$text": "Time Spiral feat.", "typeId": "a962-35b8-ac0c-8018"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Master Shi",
+            "id": "c438-1a9f-8d17-1206",
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "096c-e1e9-7274-9439",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "08 Master Shi",
+                "id": "2566-af32-e21d-02c8",
+                "hidden": false,
+                "typeId": "1c8a-f738-1536-a08c",
+                "typeName": "Escalation",
+                "characteristics": [
+                  {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+                  {"name": "Rank", "$text": "3", "typeId": "84f7-58d8-a0a5-4d78"},
+                  {"name": "Card", "$text": "Master Shi", "typeId": "d361-6342-4942-70a7"},
+                  {"name": "Benefit", "$text": "Rage Against Time feat.", "typeId": "a962-35b8-ac0c-8018"}
+                ]
+              },
+              {
+                "name": "04 Master Shi",
+                "id": "6abe-8c60-fe5f-5ecb",
+                "hidden": false,
+                "typeId": "1c8a-f738-1536-a08c",
+                "typeName": "Escalation",
+                "characteristics": [
+                  {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+                  {"name": "Rank", "$text": "1", "typeId": "84f7-58d8-a0a5-4d78"},
+                  {"name": "Card", "$text": "Master Shi", "typeId": "d361-6342-4942-70a7"},
+                  {"name": "Benefit", "$text": "Contemplate No Mind feat.\nTouch the Silence feat.", "typeId": "a962-35b8-ac0c-8018"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Ku",
+            "id": "2cd1-fdba-4cdb-b5b3",
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "95d6-c595-9afe-0e15",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "04 Ku",
+                "id": "66f9-71ef-64fa-cf64",
+                "hidden": false,
+                "typeId": "1c8a-f738-1536-a08c",
+                "typeName": "Escalation",
+                "characteristics": [
+                  {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+                  {"name": "Rank", "$text": "1", "typeId": "84f7-58d8-a0a5-4d78"},
+                  {"name": "Card", "$text": "Ku", "typeId": "d361-6342-4942-70a7"},
+                  {"name": "Benefit", "$text": "Stronger than Hate feat.", "typeId": "a962-35b8-ac0c-8018"}
+                ]
+              },
+              {
+                "name": "07 Ku",
+                "id": "8631-357b-28cd-d3ea",
+                "hidden": false,
+                "typeId": "1c8a-f738-1536-a08c",
+                "typeName": "Escalation",
+                "characteristics": [
+                  {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+                  {"name": "Rank", "$text": "2", "typeId": "84f7-58d8-a0a5-4d78"},
+                  {"name": "Card", "$text": "Ku", "typeId": "d361-6342-4942-70a7"},
+                  {"name": "Benefit", "$text": "Unseen Anger feat.", "typeId": "a962-35b8-ac0c-8018"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maru",
+            "id": "d878-3078-b2cd-f948",
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "0fff-5e22-84a2-48d6",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "04 Maru",
+                "id": "afa6-9c19-40fa-5e15",
+                "hidden": false,
+                "typeId": "1c8a-f738-1536-a08c",
+                "typeName": "Escalation",
+                "characteristics": [
+                  {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+                  {"name": "Rank", "$text": "1", "typeId": "84f7-58d8-a0a5-4d78"},
+                  {"name": "Card", "$text": "Maru", "typeId": "d361-6342-4942-70a7"},
+                  {"name": "Benefit", "$text": "Forbidden Force feat.", "typeId": "a962-35b8-ac0c-8018"}
+                ]
+              },
+              {
+                "name": "07 Maru",
+                "id": "bd06-446a-67ee-779c",
+                "hidden": false,
+                "typeId": "1c8a-f738-1536-a08c",
+                "typeName": "Escalation",
+                "characteristics": [
+                  {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+                  {"name": "Rank", "$text": "2", "typeId": "84f7-58d8-a0a5-4d78"},
+                  {"name": "Card", "$text": "Maru", "typeId": "d361-6342-4942-70a7"},
+                  {"name": "Benefit", "$text": "Time Spiral feat.", "typeId": "a962-35b8-ac0c-8018"}
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Whispers of the Void", "id": "c990-8e86-b904-63da", "hidden": false, "targetId": "c2ac-64c1-ba24-4db6", "type": "infoGroup"},
+          {"name": "Silence of the Void", "id": "2545-297c-7a71-705a", "hidden": false, "targetId": "f081-f873-d8fe-904c", "type": "infoGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Blessings of the Void",
+            "id": "14fd-08fc-5a05-f7be",
+            "hidden": false,
+            "typeId": "d2bb-86b4-edf3-c4e5",
+            "typeName": "Special Card",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Some feats have a Rank listed in their cost column.\nThese Ki Feats may only be used if an effect allows them to be used at no cost.\nFriendly Satsui models may use the following feats as if they were on their card:\n- Whispers of the Void\n- Silence of the Void",
+                "typeId": "b4b7-5338-e8e2-41fd"
+              }
+            ]
+          },
+          {
+            "name": 1,
+            "id": "efbe-9c2e-ec6d-7cf0",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "$text": "1 Void Counter", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "0", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Blessings of the Void", "typeId": "d361-6342-4942-70a7"},
+              {"name": "Benefit", "$text": "When a Satsui & Monk model is Killed, you may add 1 Void Counter to this Communal Card.", "typeId": "a962-35b8-ac0c-8018"}
+            ]
+          },
+          {
+            "name": 2,
+            "id": "7826-81c9-c379-bde3",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "$text": "2 Void Counters", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "0", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Blessings of the Void", "typeId": "d361-6342-4942-70a7"},
+              {
+                "name": "Benefit",
+                "$text": "Satsui models entering BtB with a Void Rift may be placed in BtB with any other Void Rift by the Active Player and continue its movement (if any) from there.",
+                "typeId": "a962-35b8-ac0c-8018"
+              }
+            ]
+          },
+          {
+            "name": 3,
+            "id": "3845-b894-16ba-beb0",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "$text": "3 Void Counters", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "0", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Blessings of the Void", "typeId": "d361-6342-4942-70a7"},
+              {
+                "name": "Benefit",
+                "$text": "When a Satsui & Monk model performs a Focus Action, you may add 1 Void Counter to this Communal Card.",
+                "typeId": "a962-35b8-ac0c-8018"
+              }
+            ]
+          },
+          {
+            "name": 4,
+            "id": "ba60-8b6f-bca8-479b",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "$text": "4 Void Counters", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "1", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Blessings of the Void", "typeId": "d361-6342-4942-70a7"},
+              {"name": "Benefit", "$text": "Whispers of the Void feat.\nSatsui models may use Rank 1 feats at no cost.", "typeId": "a962-35b8-ac0c-8018"}
+            ]
+          },
+          {
+            "name": 5,
+            "id": "1a5a-d08d-a62c-4e9f",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "$text": "5 Void Counters", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "1", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Blessings of the Void", "typeId": "d361-6342-4942-70a7"},
+              {
+                "name": "Benefit",
+                "$text": "A Satsui model in BtB contact with Destructible Terrain and not in an Enemy ZoC can declare a Wait Action to remove it from the table.",
+                "typeId": "a962-35b8-ac0c-8018"
+              }
+            ]
+          },
+          {
+            "name": 6,
+            "id": "cdb0-6b7a-c427-1f4b",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "$text": "6 Void Counters", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "1", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Blessings of the Void", "typeId": "d361-6342-4942-70a7"},
+              {"name": "Benefit", "$text": "When a Satsui model fails an Opposed Ki Test, add 1 Void Counter to this Communal Card.", "typeId": "a962-35b8-ac0c-8018"}
+            ]
+          },
+          {
+            "name": 8,
+            "id": "86fa-c3ef-6ec8-fd4b",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "$text": "12 Void Counters", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "3", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Blessings of the Void", "typeId": "d361-6342-4942-70a7"},
+              {"name": "Benefit", "$text": "Silence of the Void feat.\nSatsui models may use Rank 3 feats at no cost.", "typeId": "a962-35b8-ac0c-8018"}
+            ]
+          },
+          {
+            "name": 7,
+            "id": "31f2-7c0e-eb06-241b",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "$text": "8 Void Counters", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "2", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Blessings of the Void", "typeId": "d361-6342-4942-70a7"},
+              {"name": "Benefit", "$text": "Satsui models may use Rank 2 feats at no cost.", "typeId": "a962-35b8-ac0c-8018"}
+            ]
+          },
+          {
+            "name": "04 Hishigata",
+            "id": "ec69-6ebe-e9a1-076a",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "1", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Hishigata", "typeId": "d361-6342-4942-70a7"},
+              {"name": "Benefit", "$text": "Obscured by Umbra feat.", "typeId": "a962-35b8-ac0c-8018"}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "1d49-ac4f-8aa7-5bf2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "04 Kodai",
+            "id": "a10f-4df0-0c7c-801b",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "1", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Kodai", "typeId": "d361-6342-4942-70a7"},
+              {"name": "Benefit", "$text": "Dark from Light feat.", "typeId": "a962-35b8-ac0c-8018"}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "1c52-10dc-2bf8-938b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "04 Nagashikaku",
+            "id": "6ab7-cb4b-9009-b3b2",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "1", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Nagashikaku", "typeId": "d361-6342-4942-70a7"},
+              {"name": "Benefit", "$text": "Empower the Void feat.", "typeId": "a962-35b8-ac0c-8018"}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "3e1b-8c7c-8e22-b3a0",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "08 Sangaku",
+            "id": "683a-87ce-16c1-8fec",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "3", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Sangaku", "typeId": "d361-6342-4942-70a7"},
+              {"name": "Benefit", "$text": "Time Splice feat.", "typeId": "a962-35b8-ac0c-8018"}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "00a8-4002-0c62-9fbf",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "04 Batsu",
+            "id": "a749-4df3-115d-c0ea",
+            "hidden": false,
+            "typeId": "1c8a-f738-1536-a08c",
+            "typeName": "Escalation",
+            "characteristics": [
+              {"name": "Required", "typeId": "f608-9700-ffa5-0c3f"},
+              {"name": "Rank", "$text": "1", "typeId": "84f7-58d8-a0a5-4d78"},
+              {"name": "Card", "$text": "Batsu", "typeId": "d361-6342-4942-70a7"},
+              {"name": "Benefit", "$text": "Scorch the Earth feat.\nForbidden Censure feat.", "typeId": "a962-35b8-ac0c-8018"}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "3cc6-0c2b-8bbb-8a62",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Moment of Perfection",
+        "id": "fb62-b83c-5d3b-d3d8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Faction Event Cards", "id": "ac0a-8bc9-5416-a6a7", "hidden": false, "primary": true, "targetId": "d360-71aa-ca22-ba3c"}],
+        "constraints": [
+          {
+            "id": "5f53-fe8f-28d7-0d8b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 1}],
+        "profiles": [
+          {
+            "name": "Moment of Perfection",
+            "id": "747a-a6da-c80e-8ffb",
+            "hidden": false,
+            "typeId": "d2bb-86b4-edf3-c4e5",
+            "typeName": "Special Card",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Play only in the Main Phase.\nIf no models in play have Ki Tokens, add an Activation Counter to up to 2 Satsui models.",
+                "typeId": "b4b7-5338-e8e2-41fd"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scorched Earth",
+        "id": "52a2-564a-6636-ea0d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Faction Terrain Cards", "id": "9bce-a2b9-2ac5-3917", "hidden": false, "primary": true, "targetId": "bbd2-e0c8-797a-3f03"}],
+        "constraints": [
+          {
+            "id": "5257-fa1b-2a07-bfe7",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 2}],
+        "profiles": [
+          {
+            "name": "Scorched Earth",
+            "id": "bc5b-6705-d014-8516",
+            "hidden": false,
+            "typeId": "6fa2-988d-fc04-c751",
+            "typeName": "Special Card (Terrain)",
+            "characteristics": [
+              {"name": "Base", "$text": "Card", "typeId": "c40b-3106-986d-4db5"},
+              {"name": "Passage", "$text": "Difficult", "typeId": "3df8-6a47-0c4d-73e7"},
+              {"name": "Visibility", "$text": "Obscuring", "typeId": "9858-c2c1-b6fc-b75c"},
+              {"name": "Size", "$text": "Zero", "typeId": "000a-cf92-4d1e-c934"},
+              {"name": "Traits", "$text": "Destructible", "typeId": "eaef-482b-c5d3-866e"},
+              {"name": "Description", "$text": "Models contacting this Terrain gain a On Fire (3) Marker.", "typeId": "9cfa-9bd0-0b1b-9c06"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Uroboros",
+        "id": "7d0a-f4ab-1061-ac62",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Faction Event Cards", "id": "c716-d831-7805-c0a1", "hidden": false, "primary": true, "targetId": "d360-71aa-ca22-ba3c"}],
+        "constraints": [
+          {
+            "id": "effe-d1bb-5077-8e75",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 1}],
+        "profiles": [
+          {
+            "name": "Uroboros",
+            "id": "952d-4c37-504b-18fa",
+            "hidden": false,
+            "typeId": "d2bb-86b4-edf3-c4e5",
+            "typeName": "Special Card",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When an Enemy non-Void Element model spends a Virtue Token, add a Void Counter to the Blessings of the Void communal card.",
+                "typeId": "b4b7-5338-e8e2-41fd"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Voice of the Void",
+        "id": "7e5f-7935-79a2-7c68",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Faction Event Cards", "id": "5ccc-0df3-f779-40b7", "hidden": false, "primary": true, "targetId": "d360-71aa-ca22-ba3c"}],
+        "constraints": [
+          {
+            "id": "5bf7-46ab-be12-6d94",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 1}],
+        "profiles": [
+          {
+            "name": "Voice of the Void",
+            "id": "50a6-ccdf-d71f-e0a4",
+            "hidden": false,
+            "typeId": "d2bb-86b4-edf3-c4e5",
+            "typeName": "Special Card",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Play only in the Main Phase.\nAdd 1 to a Friendly Monk model’s statistics until the current activation is complete. This is considered a Ki Boost.",
+                "typeId": "b4b7-5338-e8e2-41fd"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Void Rift",
+        "id": "3f30-8199-9534-5074",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Faction Terrain Cards", "id": "31c2-0420-3b5b-bc18", "hidden": false, "primary": true, "targetId": "bbd2-e0c8-797a-3f03"}],
+        "constraints": [
+          {
+            "id": "3904-e851-1dfe-3c49",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 0}],
+        "profiles": [
+          {
+            "name": "Void Rift",
+            "id": "72ab-060b-65e5-8369",
+            "hidden": false,
+            "typeId": "6fa2-988d-fc04-c751",
+            "typeName": "Special Card (Terrain)",
+            "characteristics": [
+              {"name": "Base", "$text": "30mm", "typeId": "c40b-3106-986d-4db5"},
+              {"name": "Passage", "$text": "Normal", "typeId": "3df8-6a47-0c4d-73e7"},
+              {"name": "Visibility", "$text": "Clear", "typeId": "9858-c2c1-b6fc-b75c"},
+              {"name": "Size", "$text": "Zero", "typeId": "000a-cf92-4d1e-c934"},
+              {"name": "Traits", "$text": "Destructible", "typeId": "eaef-482b-c5d3-866e"},
+              {
+                "name": "Description",
+                "$text": "Enemy models treat these as Ideal Terrain.\nModels may not end any Movement or be Placed on top of these Terrain elements.",
+                "typeId": "9cfa-9bd0-0b1b-9c06"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sangaku",
+        "id": "00a8-4002-0c62-9fbf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Faction: Kinshi Temple", "id": "600c-08d2-7df7-8d11", "hidden": false, "primary": false, "targetId": "943d-6b70-d85b-fb7b"},
+          {"name": "Faction Profile Cards", "id": "db0f-57dc-9b4d-02ab", "hidden": false, "primary": true, "targetId": "0ca8-2040-37f2-a1e0"},
+          {"name": "Monk", "id": "e90e-c0b3-2261-d3f9", "hidden": false, "primary": false, "targetId": "57a9-2b8a-3729-1ad8"},
+          {"name": "Satsui", "id": "5196-bff7-1da9-f0c7", "hidden": false, "primary": false, "targetId": "a94e-8398-e4cc-2fb0"},
+          {"name": "Element: Void", "id": "61e4-f098-e9ad-0d18", "hidden": false, "primary": false, "targetId": "18b7-00de-cec4-40ca"},
+          {"name": "Unique", "id": "32f0-27d4-e36d-fad7", "hidden": false, "primary": false, "targetId": "afd4-8041-e359-223c"}
+        ],
+        "constraints": [
+          {
+            "id": "f3f9-64ea-6c88-41a3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 14}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "f845-a09b-e8af-033c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "36b2-5747-21c9-8865",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Traits",
+            "id": "a91c-240e-3392-d177",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Kata", "id": "b330-6d8a-7bcd-43e9", "hidden": false, "targetId": "7283-1e6d-cb9c-f1c8", "type": "rule"},
+              {"name": "Bravery", "id": "69fc-2862-c061-b2b5", "hidden": true, "targetId": "f9b2-38d2-7cda-de6e", "type": "rule"},
+              {"name": "Flank", "id": "e097-d43c-598e-4540", "hidden": false, "targetId": "a847-f02d-7e99-8a66", "type": "rule"},
+              {"name": "Endurance", "id": "e6bc-6f66-09fa-9aa8", "hidden": false, "targetId": "7fdc-d150-9641-1235", "type": "rule"},
+              {"name": "Jump Up", "id": "7345-e2de-71d9-05ac", "hidden": false, "targetId": "1575-e12f-4ca3-c557", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Sangaku",
+                "id": "8016-f7f3-e320-7ea3",
+                "hidden": false,
+                "typeId": "b175-cf39-0ab9-4d58",
+                "typeName": "Character Traits",
+                "characteristics": [{"name": "Traits", "$text": "Bravery, Endurance, Flank, Jump Up, Kata", "typeId": "6fb8-4540-ed80-9332"}]
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapon",
+            "id": "c629-c51f-d791-5997",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Sweep Attack", "id": "eb6c-cf8e-5964-4578", "hidden": false, "targetId": "bcbd-fab2-c8e2-6ff7", "type": "rule"},
+              {"name": "Counterstrike Defence ", "id": "806a-f8d6-b5e8-768f", "hidden": false, "targetId": "136e-4c77-dc59-4c6e", "type": "rule"},
+              {"name": "Sidestep Attack ", "id": "d422-8c94-e0e5-fc75", "hidden": false, "targetId": "070d-a69d-0b46-27dc", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Satsui Bujutsu",
+                "id": "8d8f-1dc3-4a6d-6037",
+                "hidden": false,
+                "typeId": "2b50-015d-0ea9-d9aa",
+                "typeName": "Melee Weapon",
+                "characteristics": [
+                  {"name": "Melee Weapon Strength", "$text": "+0", "typeId": "98e7-55ef-7ced-d4ba"},
+                  {"name": "Traits", "typeId": "39e3-f945-7956-ad4e"},
+                  {"name": "Specials", "$text": "Sidestep Attack (0), Sweep Attack (1), Counterstrike Defence (1)", "typeId": "85a9-0a2b-f966-0c8d"},
+                  {"name": "Unique Effects", "typeId": "2561-7ce8-3a17-1289"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Unique Effects",
+            "id": "ec2c-8e35-f331-0a76",
+            "hidden": false,
+            "profiles": [
+              {
+                "name": "Unique Effects",
+                "id": "613b-3893-3ad6-d574",
+                "hidden": false,
+                "typeId": "2f00-4eb0-a8cb-7022",
+                "typeName": "Unique Effects",
+                "characteristics": [{"name": "Description", "$text": "When this model is Deployed from Elsewhere, you may Place a Void Rift in BtB with it.", "typeId": "6de4-d067-c2aa-0dc2"}]
+              }
+            ]
+          },
+          {
+            "name": "Feats",
+            "id": "260c-4291-8fe9-4649",
+            "hidden": false,
+            "infoLinks": [{"name": "Time Splice", "id": "c527-d330-3e8a-64a1", "hidden": false, "targetId": "26e1-3a8f-2f0c-7315", "type": "infoGroup"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Sangaku",
+            "id": "1217-cf33-ebff-1d3a",
+            "hidden": false,
+            "typeId": "08e8-3cf2-6d1d-b8f0",
+            "typeName": "Character Profile",
+            "characteristics": [
+              {"name": "Melee Pool", "$text": "3", "typeId": "eea0-d5a3-2540-a974"},
+              {"name": "Melee Boost", "typeId": "4d43-9498-6fa0-8277"},
+              {"name": "Ranged Pool", "$text": "2", "typeId": "54f1-7472-e609-b4eb"},
+              {"name": "Ranged Boost", "typeId": "5454-b765-a65d-8a33"},
+              {"name": "Move", "$text": "4", "typeId": "91b7-833e-fd8e-a620"},
+              {"name": "Move Boost", "typeId": "f168-6d2b-e60e-28ac"},
+              {"name": "Ki", "$text": "2", "typeId": "3969-9568-a914-6854"},
+              {"name": "Ki Boost", "typeId": "5b71-1ed7-9aa7-039c"},
+              {"name": "Ki Cap", "$text": "0", "typeId": "9a7e-38d3-92c5-a672"},
+              {"name": "Wounds", "$text": "6 OOOOO O", "typeId": "2ee5-ab93-4a78-ea29"},
+              {"name": "Size & Base", "$text": "30mm Small", "typeId": "6cf9-c5fd-3e3c-b35b"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Everything and Nothing",
+        "id": "ecb4-9578-acca-a48b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Faction Theme Cards", "id": "dae6-a14e-b9c5-1749", "hidden": false, "primary": true, "targetId": "477a-e693-0888-08f7"},
+          {"name": "Faction: Kinshi Temple", "id": "dd13-fc10-590d-f4af", "hidden": false, "primary": false, "targetId": "943d-6b70-d85b-fb7b"},
+          {"name": "Weeping Sky", "id": "5fc9-e9f6-b446-82f1", "hidden": false, "primary": false, "targetId": "6da0-b320-b958-dc82"},
+          {"name": "Cycle", "id": "4fdf-437a-6448-e17c", "primary": false, "targetId": "ecbb-5575-0b01-70a9"}
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 0}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "ecb4-9578-acca-a48b",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "477a-e693-0888-08f7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "401f-cfc6-71c4-a415",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9e0e-78bf-83d0-f5b4",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Everything and Nothing",
+            "id": "2a84-62bb-0e4c-6c15",
+            "hidden": false,
+            "typeId": "d2bb-86b4-edf3-c4e5",
+            "typeName": "Special Card",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "- When a Ronin model is Killed, Replace it with a Void Rift. This can be used to Deploy a Replacing Void Rift in Base to Base or a ZoC.\n- When a Ronin model performs a Scenario Action, remove one fewer Activation Counters at the end of the action.\n- Whenever a VP is scored, Deploy a Void Rift terrain in Base to Base with a Friendly model. This can be used to Deploy a Void Rift in Base to Base or a ZOC.\n\nPermitted [Kinshi Temple models, Ronin models]",
+                "typeId": "b4b7-5338-e8e2-41fd"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tomoaki",
+        "id": "e2d3-412c-cd10-e6d2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Faction: Kinshi Temple", "id": "293f-84f7-48b4-cce1", "hidden": false, "primary": false, "targetId": "943d-6b70-d85b-fb7b"},
+          {"name": "Faction Profile Cards", "id": "8b02-1c02-9add-22a1", "hidden": false, "primary": true, "targetId": "0ca8-2040-37f2-a1e0"},
+          {"name": "Monk", "id": "d158-2e96-1257-4b0b", "hidden": false, "primary": false, "targetId": "57a9-2b8a-3729-1ad8"},
+          {"name": "Satsui", "id": "7797-942e-ac23-b2a9", "hidden": false, "primary": false, "targetId": "a94e-8398-e4cc-2fb0"},
+          {"name": "Element: Void", "id": "0de1-c028-72e9-5e34", "hidden": false, "primary": false, "targetId": "18b7-00de-cec4-40ca"},
+          {"name": "Unique", "id": "80fc-9632-fb18-7efc", "hidden": false, "primary": false, "targetId": "afd4-8041-e359-223c"},
+          {"name": "Unsui", "id": "0b5c-eacc-33a7-92da", "primary": false, "targetId": "65b2-664f-9065-3e67"}
+        ],
+        "constraints": [
+          {
+            "id": "ec6d-b84a-a3bc-a71d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 10}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "d6b8-98d2-0a0b-15f3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "36b2-5747-21c9-8865",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Melee Weapon",
+            "id": "5632-9a86-5a48-11a2",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Ki Block", "id": "cf88-070b-01c2-1115", "hidden": false, "targetId": "d134-7fba-38f0-8896", "type": "rule"},
+              {"name": "Sidestep Defence ", "id": "38e9-5e0c-284f-946d", "hidden": false, "targetId": "753c-6c3b-64d7-203c", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Satsui Bujutsu",
+                "id": "4e6a-3316-ba15-c9e2",
+                "hidden": false,
+                "typeId": "2b50-015d-0ea9-d9aa",
+                "typeName": "Melee Weapon",
+                "characteristics": [
+                  {"name": "Melee Weapon Strength", "$text": "+0", "typeId": "98e7-55ef-7ced-d4ba"},
+                  {"name": "Traits", "$text": "Ki Block", "typeId": "39e3-f945-7956-ad4e"},
+                  {"name": "Specials", "$text": "Sidestep Defence (0)", "typeId": "85a9-0a2b-f966-0c8d"},
+                  {"name": "Unique Effects", "typeId": "2561-7ce8-3a17-1289"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Unique Effects",
+            "id": "f782-e988-e95d-b29b",
+            "hidden": false,
+            "profiles": [
+              {
+                "name": "Unique Effects",
+                "id": "0568-605f-e9fd-00bb",
+                "hidden": false,
+                "typeId": "2f00-4eb0-a8cb-7022",
+                "typeName": "Unique Effects",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "While within 6\" of a Friendly Monk, this model gains the Kata trait.\n\n\nAfter adding any Void Counters for this model being Killed, until the End Phase of the turn this model was Killed, Void Counters cannot be added to the Communal Card.\n\n\nIf Recruited into a Warband with Master Shi, this model gains Fearless and cannot be affected by Gokusatsu Attack.\n\n\nWhenever a Friendly Monk would be required to spend or transfer Ki for an effect, you may mark one Wound Box on this model for each Ki Token that would be required to resolve the effect. This may not reduce this model to zero Wounds.",
+                    "typeId": "6de4-d067-c2aa-0dc2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Feats",
+            "id": "2901-6cd9-82e8-2f1c",
+            "hidden": false,
+            "infoLinks": [{"name": "Amazed by the Void", "id": "5841-4d45-f0ac-8ba8", "hidden": false, "targetId": "a949-bc93-1f82-05f0", "type": "infoGroup"}]
+          },
+          {
+            "name": "Ranged Weapon",
+            "id": "b1bc-7e19-41ca-ac82",
+            "hidden": false,
+            "profiles": [
+              {
+                "name": "Ki Vacuum",
+                "id": "d0ab-c6f1-4c69-81b8",
+                "hidden": false,
+                "typeId": "7e20-258e-bf92-18f9",
+                "typeName": "Ranged Weapon",
+                "characteristics": [
+                  {"name": "Ranged Weapon Strength", "$text": "+0", "typeId": "15aa-b6bd-6923-271f"},
+                  {"name": "Range Bands", "$text": "3/5/7", "typeId": "be6a-50c6-d691-e2e9"},
+                  {"name": "Traits", "$text": "Ki Block", "typeId": "3410-4428-ef91-eb61"},
+                  {"name": "Specials", "typeId": "cdaf-b6ac-89d4-39ef"},
+                  {"name": "Unique Effects", "typeId": "3bf8-6525-f003-4990"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Traits",
+            "id": "f4ee-5046-aee6-e867",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Steadfast", "id": "7978-fbdb-fa3c-8e13", "hidden": false, "targetId": "95e7-3178-c29b-013c", "type": "rule"},
+              {"name": "Jump Up", "id": "2871-5b91-0424-e849", "hidden": false, "targetId": "1575-e12f-4ca3-c557", "type": "rule"},
+              {"name": "Spirit", "id": "4bc7-3b8a-fb9c-41b1", "hidden": false, "targetId": "a9ba-9904-7d29-7bcb", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Tomoaki",
+                "id": "0dce-094d-cef2-9a85",
+                "hidden": false,
+                "typeId": "b175-cf39-0ab9-4d58",
+                "typeName": "Character Traits",
+                "characteristics": [{"name": "Traits", "$text": "Jump Up, Spirit (1), Steadfast", "typeId": "6fb8-4540-ed80-9332"}]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tomoaki",
+            "id": "6609-5cef-6ee6-f2cc",
+            "hidden": false,
+            "typeId": "08e8-3cf2-6d1d-b8f0",
+            "typeName": "Character Profile",
+            "characteristics": [
+              {"name": "Melee Pool", "$text": "2", "typeId": "eea0-d5a3-2540-a974"},
+              {"name": "Melee Boost", "typeId": "4d43-9498-6fa0-8277"},
+              {"name": "Ranged Pool", "$text": "2", "typeId": "54f1-7472-e609-b4eb"},
+              {"name": "Ranged Boost", "typeId": "5454-b765-a65d-8a33"},
+              {"name": "Move", "$text": "4", "typeId": "91b7-833e-fd8e-a620"},
+              {"name": "Move Boost", "typeId": "f168-6d2b-e60e-28ac"},
+              {"name": "Ki", "$text": "2", "typeId": "3969-9568-a914-6854"},
+              {"name": "Ki Boost", "typeId": "5b71-1ed7-9aa7-039c"},
+              {"name": "Ki Cap", "$text": "0", "typeId": "9a7e-38d3-92c5-a672"},
+              {"name": "Wounds", "$text": "5 OOOOO", "typeId": "2ee5-ab93-4a78-ea29"},
+              {"name": "Size & Base", "$text": "30mm Small", "typeId": "6cf9-c5fd-3e3c-b35b"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stable Void Portal",
+        "id": "4017-b590-2e8e-e7b7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Faction Event Cards", "id": "a196-cb11-f4b1-a0d6", "hidden": false, "primary": true, "targetId": "d360-71aa-ca22-ba3c"},
+          {"name": "Cycle", "id": "94c2-b7dd-b247-0f06", "primary": false, "targetId": "ecbb-5575-0b01-70a9"},
+          {"name": "Consequences", "id": "b341-2dfa-7e8b-6e06", "primary": false, "targetId": "c13c-a06d-22fe-e254"}
+        ],
+        "constraints": [
+          {
+            "id": "c056-91b4-2a52-949a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 1}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "401f-cfc6-71c4-a415",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2a7c-a7b6-55b7-a6ed",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Stable Void Portal",
+            "id": "3b2b-60f4-3316-0b8c",
+            "hidden": false,
+            "typeId": "d2bb-86b4-edf3-c4e5",
+            "typeName": "Special Card",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Play during Deployment.\nNo Void Counters are added to the Blessings of the Void Communal Card in the Starting Phase of Turn 1 by this Warband.\nSelect one Void Portal, that Void Portal loses Destructible for the rest of the Game.",
+                "typeId": "b4b7-5338-e8e2-41fd"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Harness Power",
+        "id": "1013-d48b-be7e-d03c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Faction Event Cards", "id": "56c2-ac4f-fdf3-a914", "hidden": false, "primary": true, "targetId": "d360-71aa-ca22-ba3c"},
+          {"name": "Cycle", "id": "ec56-c11f-0b72-6e12", "primary": false, "targetId": "ecbb-5575-0b01-70a9"},
+          {"name": "Consequences", "id": "fcbb-e3ce-aa56-2019", "primary": false, "targetId": "c13c-a06d-22fe-e254"}
+        ],
+        "constraints": [
+          {
+            "id": "7529-d4da-2f34-fab2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 1}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "401f-cfc6-71c4-a415",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2a7c-a7b6-55b7-a6ed",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Harness Power",
+            "id": "60d5-26ae-9766-8330",
+            "hidden": false,
+            "typeId": "d2bb-86b4-edf3-c4e5",
+            "typeName": "Special Card",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Play this in the Starting Phase of turn 1, 2 or 3.\nRemove a Void Counter from your Blessings of the Void Communal Card.\nIf you do, add as many Voice of the Void Event Cards to the Warband until you have the cards Max number.",
+                "typeId": "b4b7-5338-e8e2-41fd"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Kodai",
+        "id": "1c52-10dc-2bf8-938b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Faction: Kinshi Temple", "id": "5e14-90bb-3eba-402c", "hidden": false, "primary": false, "targetId": "943d-6b70-d85b-fb7b"},
+          {"name": "Faction Profile Cards", "id": "489d-c6f8-5d96-f350", "hidden": false, "primary": false, "targetId": "0ca8-2040-37f2-a1e0"},
+          {"name": "Monk", "id": "d039-6652-6665-2def", "hidden": false, "primary": false, "targetId": "57a9-2b8a-3729-1ad8"},
+          {"name": "Satsui", "id": "fede-f054-053e-8bda", "hidden": false, "primary": false, "targetId": "a94e-8398-e4cc-2fb0"},
+          {"name": "Element: Void", "id": "9333-1c6f-64c1-b50d", "hidden": false, "primary": false, "targetId": "18b7-00de-cec4-40ca"},
+          {"name": "Unique", "id": "5af7-a7b8-63f8-caa9", "hidden": false, "primary": false, "targetId": "afd4-8041-e359-223c"}
+        ],
+        "constraints": [
+          {
+            "id": "cd5d-2cc4-472c-4550",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 11}],
+        "entryLinks": [
+          {
+            "name": "Enhancements",
+            "id": "eb07-c00c-9d79-379c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "36b2-5747-21c9-8865",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoGroups": [
+          {
+            "name": "Traits",
+            "id": "3e9f-d597-7caa-d2de",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Durable", "id": "b62b-b974-8708-2a0e", "hidden": false, "targetId": "3612-7e19-3cb9-72d0", "type": "rule"},
+              {"name": "Intangible", "id": "22f3-7043-66ef-5cc0", "hidden": false, "targetId": "7f5c-c63d-f96f-65af", "type": "rule"},
+              {"name": "Kata", "id": "faba-93b7-3a49-d20c", "hidden": false, "targetId": "7283-1e6d-cb9c-f1c8", "type": "rule"},
+              {"name": "Slow", "id": "5ffa-36fe-1c71-3621", "hidden": false, "targetId": "f1c3-4a84-c616-23cd", "type": "rule"},
+              {"name": "Sixth Sense", "id": "55bf-9e34-7e1b-416b", "hidden": false, "targetId": "ec49-3908-f1d1-8de2", "type": "rule"},
+              {"name": "Soulless", "id": "2541-4d1e-bc4f-475b", "hidden": false, "targetId": "af31-aad0-fcea-9590", "type": "rule"},
+              {"name": "Strong", "id": "5acd-0d50-4b2e-3679", "hidden": false, "targetId": "00b5-3637-d48a-807e", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Kodai",
+                "id": "8206-90ee-2ff0-a65a",
+                "hidden": false,
+                "typeId": "b175-cf39-0ab9-4d58",
+                "typeName": "Character Traits",
+                "characteristics": [{"name": "Traits", "$text": "Durable, Kata, Intangible, Sixth Sense, Slow, Soulless, Strong", "typeId": "6fb8-4540-ed80-9332"}]
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapon",
+            "id": "9e30-eba9-e954-f394",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Push Attack", "id": "8585-3ae3-6152-e6b6", "hidden": false, "targetId": "6c26-94ba-6b96-9e1b", "type": "rule"},
+              {"name": "Sharp ", "id": "07fb-7276-461b-d783", "hidden": false, "targetId": "6092-9fb5-5196-d1eb", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Satsui Bujutsu",
+                "id": "19db-421d-fb59-cda6",
+                "hidden": false,
+                "typeId": "2b50-015d-0ea9-d9aa",
+                "typeName": "Melee Weapon",
+                "characteristics": [
+                  {"name": "Melee Weapon Strength", "$text": "+0", "typeId": "98e7-55ef-7ced-d4ba"},
+                  {"name": "Traits", "$text": "Sharp (2)", "typeId": "39e3-f945-7956-ad4e"},
+                  {"name": "Specials", "$text": "Push Attack (0)", "typeId": "85a9-0a2b-f966-0c8d"},
+                  {"name": "Unique Effects", "typeId": "2561-7ce8-3a17-1289"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Unique Effects",
+            "id": "2e12-a7fa-0a4e-3a8a",
+            "hidden": false,
+            "profiles": [
+              {
+                "name": "Lantern",
+                "id": "fc79-cc49-3f11-d732",
+                "hidden": false,
+                "typeId": "2f00-4eb0-a8cb-7022",
+                "typeName": "Unique Effects",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "When another model is Killed within 3\" of this model, you may add 1 Void Counter to the Blessings of the Void Communal Card.\nModels within 3\" of this model with the Camouflage trait gain Camouflage (+3\").",
+                    "typeId": "6de4-d067-c2aa-0dc2"
+                  }
+                ]
+              },
+              {
+                "name": "Unique Effects",
+                "id": "5e1b-50f3-e7a6-b1d6",
+                "hidden": false,
+                "typeId": "2f00-4eb0-a8cb-7022",
+                "typeName": "Unique Effects",
+                "characteristics": [{"name": "Description", "$text": "This model cannot be Healed.", "typeId": "6de4-d067-c2aa-0dc2"}]
+              },
+              {
+                "name": "Starting Phase",
+                "id": "ba6e-c699-f066-a13b",
+                "hidden": false,
+                "typeId": "2f00-4eb0-a8cb-7022",
+                "typeName": "Unique Effects",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "In the Starting Phase, choose 1 Void Rift within 6\" of this model and Place that Void Rift within 1\" of its current location.",
+                    "typeId": "6de4-d067-c2aa-0dc2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Feats",
+            "id": "95a0-a707-fe30-3825",
+            "hidden": false,
+            "infoLinks": [{"name": "Dark From Light", "id": "a140-67e4-b763-ca26", "hidden": false, "targetId": "26ee-75e6-f806-d92a", "type": "infoGroup"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Kodai",
+            "id": "1519-95a7-490a-ac47",
+            "hidden": false,
+            "typeId": "08e8-3cf2-6d1d-b8f0",
+            "typeName": "Character Profile",
+            "characteristics": [
+              {"name": "Melee Pool", "$text": "3", "typeId": "eea0-d5a3-2540-a974"},
+              {"name": "Melee Boost", "typeId": "4d43-9498-6fa0-8277"},
+              {"name": "Ranged Pool", "$text": "0", "typeId": "54f1-7472-e609-b4eb"},
+              {"name": "Ranged Boost", "typeId": "5454-b765-a65d-8a33"},
+              {"name": "Move", "$text": "5", "typeId": "91b7-833e-fd8e-a620"},
+              {"name": "Move Boost", "typeId": "f168-6d2b-e60e-28ac"},
+              {"name": "Ki", "$text": "0", "typeId": "3969-9568-a914-6854"},
+              {"name": "Ki Boost", "typeId": "5b71-1ed7-9aa7-039c"},
+              {"name": "Ki Cap", "$text": "0", "typeId": "9a7e-38d3-92c5-a672"},
+              {"name": "Wounds", "$text": "3 OOO", "typeId": "2ee5-ab93-4a78-ea29"},
+              {"name": "Size & Base", "$text": "30mm Small", "typeId": "6cf9-c5fd-3e3c-b35b"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Enhancements",
+        "id": "36b2-5747-21c9-8865",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "entryLinks": [
+          {
+            "name": "Paragon",
+            "id": "9419-7834-5f56-1fa8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9059-1680-57c0-9f71",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Finesse",
+            "id": "951e-35b5-2224-a0d7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "e916-ca9f-75ef-1c24",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Prayer Scroll",
+            "id": "930c-9c1a-9758-1ebb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "bb42-702b-ab84-a9f9",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Pacifism",
+            "id": "0be9-2e6d-bd47-644f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6bf3-9dca-b4c5-6a3e",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Fujin's Charm",
+            "id": "00eb-b7a5-c260-b66c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5110-9b07-a9dd-d71e",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "True Love",
+            "id": "f24e-a927-0c02-fb8f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "8690-885b-08be-8353",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Plans Made, Bargains Kept",
+            "id": "f496-84a1-6b6f-ac12",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "472f-7192-8d65-aea1",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Man of the People",
+            "id": "0423-cb4a-4416-afde",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f306-2092-6d16-77ea",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Loyalty",
+            "id": "4a91-834f-c819-33f9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "d9ab-b401-633c-78f4",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Iron Will",
+            "id": "f03e-a82a-c42d-1e56",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2944-c703-8038-d0f4",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Inducted into the Miko",
+            "id": "636c-2d9b-0807-c5f2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "0ceb-eea9-97e0-8726",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Broken Spirit",
+            "id": "ac9d-807b-3f8c-de43",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "66cd-f1c0-8da8-e6d9",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Accepted into the Shadow",
+            "id": "b1c6-53bf-90b6-335f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5a4f-6e3e-0e2b-3e81",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Bright Nurture",
+            "id": "9789-707f-33cd-80cd",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7345-3239-1f28-59f1",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Dark Nurture",
+            "id": "1ac0-2465-cc3d-445a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9077-4def-6328-8ac2",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Professional",
+            "id": "7fca-d2e0-ac64-6774",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a795-4dac-6489-ce72",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Spark of Life",
+            "id": "cc5a-b8df-c2a4-4007",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "af1d-199c-fe39-69e6",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "The Oncoming Storm",
+            "id": "7318-18d8-1139-de15",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4965-ef2c-5ec7-2d99",
+            "type": "selectionEntry"
+          },
+          {"name": "Mosh Pit", "id": "73c4-1500-e5ff-2103", "hidden": false, "import": true, "targetId": "a4b8-d258-053b-0f1d", "type": "selectionEntry"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "5073-f00b-a8f6-5e3b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "ancestor",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Ki Disrupting Palm",
+            "id": "4b8d-5b2f-13e9-cf46",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Faction Enhancement Cards", "id": "4f21-4541-f619-5a68", "hidden": false, "primary": false, "targetId": "17cf-d9a9-c7c1-bcb6"}],
+            "constraints": [
+              {
+                "id": "916b-2714-2837-e06f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "156e-08d4-4007-7767",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "57a9-2b8a-3729-1ad8",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 0
+                      },
+                      {
+                        "childId": "18b7-00de-cec4-40ca",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Ki Disrupting Palm",
+                "id": "7992-27cf-39c0-c6e0",
+                "hidden": false,
+                "typeId": "d2bb-86b4-edf3-c4e5",
+                "typeName": "Special Card",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "When Attached model succeeds in a Melee Exchange, all Aura effects on the Enemy model immediately expire.\n\nRequirement [Monk, Void Element]",
+                    "typeId": "b4b7-5338-e8e2-41fd"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Remembrance of Harmony",
+            "id": "4202-776f-8dfd-2386",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [
+              {"name": "Faction Enhancement Cards", "id": "9c58-fed6-8f1b-82d4", "hidden": false, "primary": false, "targetId": "17cf-d9a9-c7c1-bcb6"},
+              {"name": "Cycle", "id": "4bb9-f54e-be98-d17e", "primary": false, "targetId": "ecbb-5575-0b01-70a9"},
+              {"name": "Consequences", "id": "0104-6596-f133-2537", "primary": false, "targetId": "c13c-a06d-22fe-e254"}
+            ],
+            "constraints": [
+              {
+                "id": "9407-0d37-5837-23c2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "807b-5761-70f3-1a86",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "57a9-2b8a-3729-1ad8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "401f-cfc6-71c4-a415",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "2a7c-a7b6-55b7-a6ed",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Remembrance of Harmony",
+                "id": "d2d9-d1e3-7e39-05ac",
+                "hidden": false,
+                "typeId": "d2bb-86b4-edf3-c4e5",
+                "typeName": "Special Card",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "Whenever the Attached model would be required to spend or transfer Ki for an effect, you may mark one Wound Box on the Attached model for each Ki Token that would be required to resolve the effect.\nThis may not be used if it would reduce the model to zero Wounds.\n\n\nRequirement [Monk]",
+                    "typeId": "b4b7-5338-e8e2-41fd"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Eclipse of Hate",
+            "id": "c76c-812b-43c9-d144",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Faction Enhancement Cards", "id": "de84-34a3-3c7a-fe90", "hidden": false, "primary": false, "targetId": "17cf-d9a9-c7c1-bcb6"}],
+            "constraints": [
+              {
+                "id": "3fd2-d254-1baa-5744",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "a9cc-5ee0-3496-09ee",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 1}],
+            "infoLinks": [{"name": "Vengeance", "id": "de56-7b03-e14e-5b8b", "hidden": false, "targetId": "6779-0aac-2f51-f67e", "type": "rule"}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "57a9-2b8a-3729-1ad8",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 0
+                      },
+                      {
+                        "childId": "7379-3296-315e-62b2",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      },
+                      {
+                        "childId": "18b7-00de-cec4-40ca",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Eclipse of Hate",
+                "id": "a495-c9ca-0c29-ff91",
+                "hidden": false,
+                "typeId": "d2bb-86b4-edf3-c4e5",
+                "typeName": "Special Card",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "Attached model gains Vengeance [Spirit Blocked].\n\nRequirement [Monk, Void Element]\nExclusion [Master]",
+                    "typeId": "b4b7-5338-e8e2-41fd"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Student of Master Shi",
+            "id": "f239-3349-c7a4-3336",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Faction Enhancement Cards", "id": "9a3c-a23e-57bf-25ff", "hidden": false, "primary": false, "targetId": "17cf-d9a9-c7c1-bcb6"}],
+            "constraints": [
+              {
+                "id": "d429-27f2-17d8-aeca",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "b3db-3b43-16ba-f7cd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 2}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "7379-3296-315e-62b2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Spirit Vacuum",
+                "id": "c6a8-3560-a674-ebcc",
+                "hidden": false,
+                "typeId": "814b-7c22-0b45-9acc",
+                "typeName": "Special Card (Ranged Weapon)",
+                "characteristics": [
+                  {"name": "Ranged Weapon Strength", "$text": "Special", "typeId": "a0cf-2be6-a776-363b"},
+                  {"name": "Range Bands", "$text": "3/5/7", "typeId": "ea30-733c-e9dd-5c75"},
+                  {"name": "Traits", "typeId": "a28d-cbd1-005e-e623"},
+                  {"name": "Specials", "typeId": "55e0-9b2f-ad58-9c57"},
+                  {
+                    "name": "Unique Effects",
+                    "$text": "This Weapon does no Damage but on a successful Attack, the Target non-Void Element model gains a Spirit Block Marker.",
+                    "typeId": "76c8-d87b-83b3-3e58"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Temporal Destruction",
+            "id": "4473-ff43-26e9-7d0c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Faction Enhancement Cards", "id": "fc30-6c42-bac2-26db", "hidden": false, "primary": false, "targetId": "17cf-d9a9-c7c1-bcb6"}],
+            "constraints": [
+              {
+                "id": "7693-3465-2b44-7c18",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "50f5-3d03-6a7a-3168",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "57a9-2b8a-3729-1ad8",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 0
+                      },
+                      {
+                        "childId": "18b7-00de-cec4-40ca",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Temporal Destruction",
+                "id": "ed0e-8dc3-3ffc-dea0",
+                "hidden": false,
+                "typeId": "bd15-7ead-9268-3576",
+                "typeName": "Special Card (Ki Feat)",
+                "characteristics": [
+                  {"name": "Description", "$text": "Attached model gains the following feat:", "typeId": "17eb-17e2-4df4-5c5d"},
+                  {"name": "Name", "$text": "Time Stutter", "typeId": "27c7-1649-f16e-8eaa"},
+                  {"name": "Cost", "$text": "Rank 2", "typeId": "e410-b220-64e5-7953"},
+                  {"name": "Timing", "$text": "Active", "typeId": "b9bf-562a-fe26-cb29"},
+                  {"name": "Subject", "$text": "Personal", "typeId": "47b8-f739-9d50-2e45"},
+                  {"name": "Limitation", "typeId": "870e-79e4-80ee-c0cc"},
+                  {
+                    "name": "Ki Feat Description",
+                    "$text": "When this model makes a successful Attack during a Melee Exchange, remove all Activation Counters from the Enemy model then discard this card.",
+                    "typeId": "3886-242b-fb70-5c88"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Thief of Time",
+            "id": "e882-f039-4b62-a953",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Faction Enhancement Cards", "id": "62e1-a1f4-8506-d750", "hidden": false, "primary": false, "targetId": "17cf-d9a9-c7c1-bcb6"}],
+            "constraints": [
+              {
+                "id": "38db-c9de-40ac-aec8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "8077-d949-d693-0d13",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 3}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "0fff-5e22-84a2-48d6",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      },
+                      {
+                        "childId": "096c-e1e9-7274-9439",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      },
+                      {
+                        "childId": "3cc6-0c2b-8bbb-8a62",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      },
+                      {
+                        "childId": "f239-3349-c7a4-3336",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Conspiracy of Time",
+                "id": "7cbd-ed47-bd35-c78c",
+                "hidden": false,
+                "typeId": "814b-7c22-0b45-9acc",
+                "typeName": "Special Card (Ranged Weapon)",
+                "characteristics": [
+                  {"name": "Ranged Weapon Strength", "$text": "Special", "typeId": "a0cf-2be6-a776-363b"},
+                  {"name": "Range Bands", "$text": "2/3/4", "typeId": "ea30-733c-e9dd-5c75"},
+                  {"name": "Traits", "typeId": "a28d-cbd1-005e-e623"},
+                  {"name": "Specials", "typeId": "55e0-9b2f-ad58-9c57"},
+                  {
+                    "name": "Unique Effects",
+                    "$text": "This Weapon does no Damage but on a successful Attack, the Target non-Satsui model loses an Activation Counter.",
+                    "typeId": "76c8-d87b-83b3-3e58"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Disrupt Harmony",
+            "id": "7ab6-f4d6-dde4-d787",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Faction Enhancement Cards", "id": "549f-9604-0ed9-69f5", "hidden": false, "primary": false, "targetId": "17cf-d9a9-c7c1-bcb6"}],
+            "constraints": [
+              {
+                "id": "cfeb-a8d8-124d-b043",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "297a-6c8b-e14d-e546",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 4}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "096c-e1e9-7274-9439",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Disrupt Harmony",
+                "id": "f663-29fe-e7e3-65ec",
+                "hidden": false,
+                "typeId": "d2bb-86b4-edf3-c4e5",
+                "typeName": "Special Card",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "When this model makes a successful attack, you may choose a Ki Feat on the Enemy non-Satsui model's card.\nThat Ki Feat may not be used for the rest of the game.\nOnce used, discard this card.\n\nRequirement [Master Shi]",
+                    "typeId": "b4b7-5338-e8e2-41fd"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rend Reality",
+            "id": "a5eb-25f0-52f8-6d51",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [
+              {"name": "Faction Enhancement Cards", "id": "228a-d902-3fa9-a18c", "hidden": false, "primary": false, "targetId": "17cf-d9a9-c7c1-bcb6"},
+              {"name": "Cycle", "id": "95bb-100e-2525-c064", "primary": false, "targetId": "ecbb-5575-0b01-70a9"},
+              {"name": "Consequences", "id": "a1bc-d655-ba58-e6a6", "primary": false, "targetId": "c13c-a06d-22fe-e254"}
+            ],
+            "constraints": [
+              {
+                "id": "269a-57bf-db8d-ed2a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "70a8-f231-396a-4e5d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Rice", "typeId": "a111-8656-5c05-7415", "value": 2}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "57a9-2b8a-3729-1ad8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "401f-cfc6-71c4-a415",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "2a7c-a7b6-55b7-a6ed",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Rend Reality",
+                "id": "63b0-85c3-0cbb-9f5e",
+                "hidden": false,
+                "typeId": "bd15-7ead-9268-3576",
+                "typeName": "Special Card (Ki Feat)",
+                "characteristics": [
+                  {"name": "Description", "$text": "Attached model gains the 'Rend Reality' Ki Feat.\n\nRequirement [Monk]", "typeId": "17eb-17e2-4df4-5c5d"},
+                  {"name": "Name", "$text": "Rend Reality", "typeId": "27c7-1649-f16e-8eaa"},
+                  {"name": "Cost", "$text": "Rank 1", "typeId": "e410-b220-64e5-7953"},
+                  {"name": "Timing", "$text": "Active", "typeId": "b9bf-562a-fe26-cb29"},
+                  {"name": "Subject", "$text": "Target 6\"", "typeId": "47b8-f739-9d50-2e45"},
+                  {"name": "Limitation", "$text": "no BtB", "typeId": "870e-79e4-80ee-c0cc"},
+                  {
+                    "name": "Ki Feat Description",
+                    "$text": "Remove a Void Counter from your Blessings of the Void Communal Card.\nIf you do, perform an Opposed Ki Test with the Target.\nIf Successful, place a Void Rift in BtB with the Target (ignoring the usual restrictions on terrain placement).",
+                    "typeId": "3886-242b-fb70-5c88"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipment",
+            "id": "af4b-7d80-6bbd-c779",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "2fe4-21ca-cac4-86e1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Arashi's Fan",
+                "id": "2f26-d33e-05a3-a98e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fbe4-1c24-7fea-0247",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Hotai's Coin",
+                "id": "b69a-91d1-bf0e-f362",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "b467-7ef8-5537-423b",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Kintoki's Salt",
+                "id": "0a0a-8a6e-cd10-4e7c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f7e6-106d-e876-9d34",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Takeru's Tanto",
+                "id": "6c23-d9cc-4040-55c5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "50f4-7511-f889-9f40",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Vial of Raijin's Breath",
+                "id": "263d-1bd6-dd71-1456",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9b29-1f89-46d2-0329",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Demon-Face Mask",
+                "id": "b0a9-636a-8435-84aa",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "2437-81ed-3b75-d23b",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Obscure Charm",
+                "id": "67af-b7c4-cf81-4314",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "74be-1ece-8b7d-739d",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Minimoto Steel Helm",
+                "id": "42a5-318e-c07b-a859",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "38b5-a50d-24f0-4435",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Triangle Knife",
+                "id": "5f37-a30a-caeb-3731",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fcc9-c236-babe-2239",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Magatama",
+                "id": "9d35-465a-3aca-6e69",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "370e-e02b-d9ee-8b80",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Wolf Heart Talisman",
+                "id": "0ec6-a5a2-cd95-26be",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a56e-8e8e-97b4-ec73",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Hand Cannon",
+                "id": "7a46-b1f6-0ec1-b855",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "3009-1a3c-223d-cae2",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "The Eagle Banner",
+                "id": "6e95-5ae2-bee6-1d67",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "010e-1205-db10-6a2d",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "The Hozumi Katana",
+                "id": "48a5-ec12-6c6e-bb70",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "5cac-d0cc-1c51-a147",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "The Kiyozumi Katana",
+                "id": "0f9c-bad8-03e1-3856",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f882-5ccf-0724-2290",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "The Sunrise Katana",
+                "id": "d607-87f4-cc7f-e029",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a54a-aa90-53f2-d9df",
+                "type": "selectionEntry"
+              },
+              {"name": "Spidersilk Coat", "id": "602f-a6bc-09dd-406d", "hidden": false, "import": true, "targetId": "6f8c-dbe4-cdeb-809f", "type": "selectionEntry"}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {"childId": "ac80-29b0-dc43-5a14", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "instanceOf", "value": 1}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
