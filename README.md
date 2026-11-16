@@ -1,23 +1,32 @@
-Bushido
-=======
+# Bushido: Risen Sun data
 
-## Overview ##
-[Overview]: #overview
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe, NewRecruit, or any other company/publisher.
-If you want to help develop, take a look at [their homepage](https://BSData.net).
+Army list data files for Bushido: Risen Sun.
 
-These datafiles contain all the profile information publicly available for [GCT Studios'](https://gctstudios.com/) Bushido tabletop miniatures skirmish game.
-Check out the (sometimes updated) development roadmap on [Trello](https://trello.com/b/lCoAntEk/bushido-battlescribe-repository), or use the battlescribe-data channel in the [Bushido Discord](https://discord.gg/SbSBDhK) server to discuss the catalogue development.
+> **Community rehost.** These files were written by the community contributors listed below and were previously published at `github.com/BSData/bushido`, which is no longer online. This copy keeps them available and open to updates.
+>
+> They are not made, maintained or endorsed by NewRecruit. Nobody here is affiliated with or endorsed by the publisher of Bushido: Risen Sun. All game names and trademarks belong to their respective owners. You still need the official rules to play.
 
-<img src="https://gctstudios.com/sites/default/files/styles/uc_product_full/public/products/bushido_risen_sun_rulebook_promo.jpg?itok=9PW8lkWe" />
+## Is this maintained?
 
-### How to get started ###
-I recommend heading to [newrecruit.eu](https://www.newrecruit.eu/) and either using their web app, or installing their app. It is in active development, unlike the official BattleScribe app. The Bushido data can be installed within the app.
+It is open for updates, not archived. It is kept up by whoever contributes to it, so check the commit history to see how current it is. Last data change before the rehost: 2026-10-28.
 
-## Bushido Repository Design ##
-[Bushido]: #bushido 
-Think of each root entry as a card. This means that you only ever select one of almost any card. Multiple-model cards, when added, will usually have one model automatically nested within them. To add a second model, you will need to go into that card's options and add one. Their equipment will then be nested within each model.
+## How to update it
 
-### Looking for Enhancements on multi-model cards? ###
-Tap on their name! Equipment? Tap on that!
+- **Pull request:** fork this repository, make your changes and open a pull request.
+- **Write access:** if you want to maintain this game, ask on the NewRecruit Discord: https://discord.gg/cCtqGbugwb
+
+## File format
+
+The files are JSON, converted on 2026-11-16 from the original BattleScribe XML (`.cat`/`.gst`). The XML versions are in the git history before that commit.
+
+## Authors
+
+From the git history of the data files:
+
+- Fleafa
+- MCMBen
+- Ben Calvert-Lee
+- Brian Brietzke
+- BSDataAnon
+- Ben
+- Schledz
